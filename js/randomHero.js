@@ -899,7 +899,7 @@ heroesContainer.innerHTML += `
 heroesByAttributes[0].forEach(hero => {
     let heroName = hero.name_english_loc;
     let heroImage = heroName.toLowerCase().split(' ').join('_');
-    heroesContainer.innerHTML += heroElementTemplate.replace('%IMAGE%', `/img/heroes/full/${heroImage}.png`).replace('%NAME%', heroName);
+    heroesContainer.innerHTML += heroElementTemplate.replace('%IMAGE%', `./img/heroes/full/${heroImage}.png`).replace('%NAME%', heroName);
 });
 
 heroesContainer.innerHTML += `
@@ -911,7 +911,7 @@ heroesContainer.innerHTML += `
 heroesByAttributes[1].forEach(hero => {
     let heroName = hero.name_english_loc;
     let heroImage = heroName.toLowerCase().split(' ').join('_');
-    heroesContainer.innerHTML += heroElementTemplate.replace('%IMAGE%', `/img/heroes/full/${heroImage}.png`).replace('%NAME%', heroName);
+    heroesContainer.innerHTML += heroElementTemplate.replace('%IMAGE%', `./img/heroes/full/${heroImage}.png`).replace('%NAME%', heroName);
 });
 
 heroesContainer.innerHTML += `
@@ -923,7 +923,7 @@ heroesContainer.innerHTML += `
 heroesByAttributes[2].forEach(hero => {
     let heroName = hero.name_english_loc;
     let heroImage = heroName.toLowerCase().split(' ').join('_');
-    heroesContainer.innerHTML += heroElementTemplate.replace('%IMAGE%', `/img/heroes/full/${heroImage}.png`).replace('%NAME%', heroName);
+    heroesContainer.innerHTML += heroElementTemplate.replace('%IMAGE%', `./img/heroes/full/${heroImage}.png`).replace('%NAME%', heroName);
 });
 
 const heroElements = heroesContainer.querySelectorAll('.hero-element');
