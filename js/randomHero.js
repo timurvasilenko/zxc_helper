@@ -880,7 +880,7 @@ document.querySelector('#random-button').addEventListener('click', (e)=>{
     console.log(randomId);
     let heroName = filteredHeroes[randomId].name_english_loc;
     let heroImage = heroName.toLowerCase().split(' ').join('_');
-    document.querySelector('#random-hero img').src = `/img/heroes/full/${heroImage}.png`;
+    document.querySelector('#random-hero img').src = `./img/heroes/full/${heroImage}.png`;
     document.querySelector('#random-hero h1').innerText = heroName;
 });
 
@@ -892,7 +892,7 @@ const heroesByAttributes = [
 
 heroesContainer.innerHTML += `
 <div class="w-full flex flex-row space-x-3 mt-2 select-none">
-    <img alt="team" class="object-contain object-center flex-shrink-0 drop-shadow-md" src="/img/hero_strength.png">
+    <img alt="team" class="object-contain object-center flex-shrink-0 drop-shadow-md" src="./img/hero_strength.png">
     <h1 class="title-font sm:text-4xl text-3xl mb-4 mt-3 font-medium text-white">Сила</h1>
 </div>
 `
@@ -904,7 +904,7 @@ heroesByAttributes[0].forEach(hero => {
 
 heroesContainer.innerHTML += `
 <div class="w-full flex flex-row space-x-3 mt-4 select-none">
-    <img alt="team" class="object-contain object-center flex-shrink-0 drop-shadow-md" src="/img/hero_agility.png">
+    <img alt="team" class="object-contain object-center flex-shrink-0 drop-shadow-md" src="./img/hero_agility.png">
     <h1 class="title-font sm:text-4xl text-3xl mb-4 mt-3 font-medium text-white">Ловкость</h1>
 </div>
 `
@@ -916,7 +916,7 @@ heroesByAttributes[1].forEach(hero => {
 
 heroesContainer.innerHTML += `
 <div class="w-full flex flex-row space-x-3 mt-4 select-none">
-    <img alt="team" class="object-contain object-center flex-shrink-0 drop-shadow-md" src="/img/hero_intelligence.png">
+    <img alt="team" class="object-contain object-center flex-shrink-0 drop-shadow-md" src="./img/hero_intelligence.png">
     <h1 class="title-font sm:text-4xl text-3xl mb-4 mt-3 font-medium text-white">Интеллект</h1>
 </div>
 `
