@@ -802,7 +802,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-loader-ring {
-  background-image: url('/img/loading.gif');
+  background-image: url('./img/loading.gif');
 }
 
 .bg-contain {
