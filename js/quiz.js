@@ -9001,6 +9001,8 @@ nextButton.addEventListener('click', () => {
         let randomItem = filteredItems[Math.floor(Math.random() * filteredItems.length)]
         currentItem = randomItem;
 
+        currentItemImage.src="./img/items/" + currentItem.img;
+
         filteredItems = filteredItems.filter(item => item.name != currentItem.name && item.isComponent == true);
         suggestedItemsCount = randomItem.components.length + Math.ceil(randomItem.components.length / 2 + 1);
         currentItem.components.forEach(component => {
@@ -9032,7 +9034,6 @@ nextButton.addEventListener('click', () => {
             componentsCount++;
         }
 
-        currentItemImage.src="./img/items/" + currentItem.img;
         currentItemName.innerText = currentItem.dname;
         currentItemComponentsCount.innerText = 'Кол-во компонентов: ' + componentsCount;
 
