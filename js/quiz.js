@@ -17,7 +17,7 @@ let items = [
             "Active: Blink Teleport to a target point up to 1200 units away. Blink Dagger cannot be used for 3 seconds after taking damage from an enemy hero or Roshan."
         ],
         "id": 0,
-        "img": "/apps/dota2/images/items/recipe_lg.png?t=1593393829403",
+        "img": "recipe.png",
         "dname": "Recipe",
         "qual": "component",
         "cost": 2250,
@@ -38,7 +38,7 @@ let items = [
             "Active: Blink Teleport to a target point up to 1200 units away. Blink Dagger cannot be used for 3 seconds after taking damage from an enemy hero or Roshan."
         ],
         "id": 1,
-        "img": "/apps/dota2/images/items/blink_lg.png?t=1593393829403",
+        "img": "blink.png",
         "dname": "Blink Dagger",
         "qual": "component",
         "cost": 2250,
@@ -59,7 +59,7 @@ let items = [
             "Active: Overwhelming Blink Teleport to a target point up to 1200 units away.After teleportation, all enemies in a 800 AoE have 50% movement speed slow and 50 attack speed slow for 6 seconds, and take damage equal to 100 + 150% of your strength. Overwhelming Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan."
         ],
         "id": 600,
-        "img": "/apps/dota2/images/items/overwhelming_blink_lg.png?t=1593393829403",
+        "img": "overwhelming_blink.png",
         "dname": "Overwhelming Blink",
         "qual": "component",
         "cost": 6800,
@@ -91,7 +91,7 @@ let items = [
             "Active: Swift Blink Teleport to a target point up to %blink_range% units away.After teleportation, you gain %bonus_movement%%% phased movement speed and +%bonus_agi_active% Agility for %duration% seconds. Swift Blink cannot be used for %blink_damage_cooldown% seconds after taking damage from an enemy hero or Roshan."
         ],
         "id": 603,
-        "img": "/apps/dota2/images/items/swift_blink_lg.png?t=1593393829403",
+        "img": "swift_blink.png",
         "dname": "Swift Blink",
         "qual": "component",
         "cost": 6800,
@@ -116,7 +116,7 @@ let items = [
             "Active: Arcane Blink Teleport to a target point up to %blink_range% units away.After teleportation, you gain %manacost_reduction%%% Mana Cost Reduction, %debuff_amp%%% Debuff Amplification and %cast_pct_improvement%%% Cast Point reduction for %duration% seconds. Arcane Blink cannot be used for %blink_damage_cooldown% seconds after taking damage from an enemy hero or Roshan."
         ],
         "id": 604,
-        "img": "/apps/dota2/images/items/arcane_blink_lg.png?t=1593393829403",
+        "img": "arcane_blink.png",
         "dname": "Arcane Blink",
         "qual": "component",
         "cost": 6800,
@@ -138,7 +138,7 @@ let items = [
     },
     {
         "id": 2,
-        "img": "/apps/dota2/images/items/blades_of_attack_lg.png?t=1593393829403",
+        "img": "blades_of_attack.png",
         "dname": "Blades of Attack",
         "qual": "component",
         "cost": 450,
@@ -163,7 +163,7 @@ let items = [
     },
     {
         "id": 3,
-        "img": "/apps/dota2/images/items/broadsword_lg.png?t=1593393829403",
+        "img": "broadsword.png",
         "dname": "Broadsword",
         "qual": "component",
         "cost": 1000,
@@ -188,7 +188,7 @@ let items = [
     },
     {
         "id": 4,
-        "img": "/apps/dota2/images/items/chainmail_lg.png?t=1593393829403",
+        "img": "chainmail.png",
         "dname": "Chainmail",
         "qual": "component",
         "cost": 550,
@@ -213,7 +213,7 @@ let items = [
     },
     {
         "id": 5,
-        "img": "/apps/dota2/images/items/claymore_lg.png?t=1593393829403",
+        "img": "claymore.png",
         "dname": "Claymore",
         "qual": "component",
         "cost": 1350,
@@ -238,7 +238,7 @@ let items = [
     },
     {
         "id": 6,
-        "img": "/apps/dota2/images/items/helm_of_iron_will_lg.png?t=1593393829403",
+        "img": "helm_of_iron_will.png",
         "dname": "Helm of Iron Will",
         "qual": "component",
         "cost": 975,
@@ -272,7 +272,7 @@ let items = [
             "Passive: PierceGrants each attack a 30% chance to pierce through evasion and deal 70 bonus magical damage."
         ],
         "id": 7,
-        "img": "/apps/dota2/images/items/javelin_lg.png?t=1593393829403",
+        "img": "javelin.png",
         "dname": "Javelin",
         "qual": "component",
         "cost": 1100,
@@ -290,7 +290,7 @@ let items = [
     },
     {
         "id": 8,
-        "img": "/apps/dota2/images/items/mithril_hammer_lg.png?t=1593393829403",
+        "img": "mithril_hammer.png",
         "dname": "Mithril Hammer",
         "qual": "component",
         "cost": 1600,
@@ -315,7 +315,7 @@ let items = [
     },
     {
         "id": 9,
-        "img": "/apps/dota2/images/items/platemail_lg.png?t=1593393829403",
+        "img": "platemail.png",
         "dname": "Platemail",
         "qual": "secret_shop",
         "cost": 1400,
@@ -340,7 +340,7 @@ let items = [
     },
     {
         "id": 10,
-        "img": "/apps/dota2/images/items/quarterstaff_lg.png?t=1593393829403",
+        "img": "quarterstaff.png",
         "dname": "Quarterstaff",
         "qual": "component",
         "cost": 875,
@@ -375,7 +375,7 @@ let items = [
             "Passive: Quell Increases attack damage against non-hero units by 8 for melee heroes, and 4 for ranged."
         ],
         "id": 11,
-        "img": "/apps/dota2/images/items/quelling_blade_lg.png?t=1593393829403",
+        "img": "quelling_blade.png",
         "dname": "Quelling Blade",
         "qual": "component",
         "cost": 100,
@@ -396,7 +396,7 @@ let items = [
             "Use: Imbue Instantly restores 85 health."
         ],
         "id": 237,
-        "img": "/apps/dota2/images/items/faerie_fire_lg.png?t=1593393829403",
+        "img": "faerie_fire.png",
         "dname": "Faerie Fire",
         "qual": "consumable",
         "cost": 70,
@@ -424,7 +424,7 @@ let items = [
             "Passive: Magical Damage Block Consumes a charge to block 120 magic damage from damage instances over 75 damage. Comes with 6 charges. When the charges are gone, the item disappears."
         ],
         "id": 265,
-        "img": "/apps/dota2/images/items/infused_raindrop_lg.png?t=1593393829403",
+        "img": "infused_raindrop.png",
         "dname": "Infused Raindrops",
         "qual": "component",
         "cost": 225,
@@ -452,7 +452,7 @@ let items = [
             "Bonuses from multiple Wind Laces do not stack."
         ],
         "id": 244,
-        "img": "/apps/dota2/images/items/wind_lace_lg.png?t=1593393829403",
+        "img": "wind_lace.png",
         "dname": "Wind Lace",
         "qual": "component",
         "cost": 250,
@@ -477,7 +477,7 @@ let items = [
     },
     {
         "id": 12,
-        "img": "/apps/dota2/images/items/ring_of_protection_lg.png?t=1593393829403",
+        "img": "ring_of_protection.png",
         "dname": "Ring of Protection",
         "qual": "component",
         "cost": 175,
@@ -505,7 +505,7 @@ let items = [
             "Passive: Damage BlockGrants a 50% chance to block 20 damage from incoming attacks on melee heroes, and 8 damage on ranged."
         ],
         "id": 182,
-        "img": "/apps/dota2/images/items/stout_shield_lg.png?t=1593393829403",
+        "img": "stout_shield.png",
         "dname": "Stout Shield",
         "qual": "component",
         "cost": 100,
@@ -527,7 +527,7 @@ let items = [
             "Passive: Shade SightGrants bonus night vision."
         ],
         "id": 247,
-        "img": "/apps/dota2/images/items/moon_shard_lg.png?t=1593393829403",
+        "img": "moon_shard.png",
         "dname": "Moon Shard",
         "qual": "consumable",
         "cost": 4000,
@@ -560,7 +560,7 @@ let items = [
     },
     {
         "id": 13,
-        "img": "/apps/dota2/images/items/gauntlets_lg.png?t=1593393829403",
+        "img": "gauntlets.png",
         "dname": "Gauntlets of Strength",
         "qual": "component",
         "cost": 140,
@@ -585,7 +585,7 @@ let items = [
     },
     {
         "id": 14,
-        "img": "/apps/dota2/images/items/slippers_lg.png?t=1593393829403",
+        "img": "slippers.png",
         "dname": "Slippers of Agility",
         "qual": "component",
         "cost": 140,
@@ -610,7 +610,7 @@ let items = [
     },
     {
         "id": 15,
-        "img": "/apps/dota2/images/items/mantle_lg.png?t=1593393829403",
+        "img": "mantle.png",
         "dname": "Mantle of Intelligence",
         "qual": "component",
         "cost": 140,
@@ -638,7 +638,7 @@ let items = [
             "Use: Plant Tree Targets the ground to plant a happy little tree that lasts for 20 seconds.Range: 400"
         ],
         "id": 16,
-        "img": "/apps/dota2/images/items/branches_lg.png?t=1593393829403",
+        "img": "branches.png",
         "dname": "Iron Branch",
         "qual": "consumable",
         "cost": 50,
@@ -663,7 +663,7 @@ let items = [
     },
     {
         "id": 17,
-        "img": "/apps/dota2/images/items/belt_of_strength_lg.png?t=1593393829403",
+        "img": "belt_of_strength.png",
         "dname": "Belt of Strength",
         "qual": "component",
         "cost": 450,
@@ -688,7 +688,7 @@ let items = [
     },
     {
         "id": 18,
-        "img": "/apps/dota2/images/items/boots_of_elves_lg.png?t=1593393829403",
+        "img": "boots_of_elves.png",
         "dname": "Band of Elvenskin",
         "qual": "component",
         "cost": 450,
@@ -713,7 +713,7 @@ let items = [
     },
     {
         "id": 19,
-        "img": "/apps/dota2/images/items/robe_lg.png?t=1593393829403",
+        "img": "robe.png",
         "dname": "Robe of the Magi",
         "qual": "component",
         "cost": 450,
@@ -738,7 +738,7 @@ let items = [
     },
     {
         "id": 20,
-        "img": "/apps/dota2/images/items/circlet_lg.png?t=1593393829403",
+        "img": "circlet.png",
         "dname": "Circlet",
         "qual": "component",
         "cost": 155,
@@ -763,7 +763,7 @@ let items = [
     },
     {
         "id": 261,
-        "img": "/apps/dota2/images/items/crown_lg.png?t=1593393829403",
+        "img": "crown.png",
         "dname": "Crown",
         "qual": "component",
         "cost": 450,
@@ -788,7 +788,7 @@ let items = [
     },
     {
         "id": 21,
-        "img": "/apps/dota2/images/items/ogre_axe_lg.png?t=1593393829403",
+        "img": "ogre_axe.png",
         "dname": "Ogre Axe",
         "qual": "component",
         "cost": 1000,
@@ -813,7 +813,7 @@ let items = [
     },
     {
         "id": 22,
-        "img": "/apps/dota2/images/items/blade_of_alacrity_lg.png?t=1593393829403",
+        "img": "blade_of_alacrity.png",
         "dname": "Blade of Alacrity",
         "qual": "component",
         "cost": 1000,
@@ -838,7 +838,7 @@ let items = [
     },
     {
         "id": 23,
-        "img": "/apps/dota2/images/items/staff_of_wizardry_lg.png?t=1593393829403",
+        "img": "staff_of_wizardry.png",
         "dname": "Staff of Wizardry",
         "qual": "component",
         "cost": 1000,
@@ -863,7 +863,7 @@ let items = [
     },
     {
         "id": 24,
-        "img": "/apps/dota2/images/items/ultimate_orb_lg.png?t=1593393829403",
+        "img": "ultimate_orb.png",
         "dname": "Ultimate Orb",
         "qual": "secret_shop",
         "cost": 2050,
@@ -888,7 +888,7 @@ let items = [
     },
     {
         "id": 25,
-        "img": "/apps/dota2/images/items/gloves_lg.png?t=1593393829403",
+        "img": "gloves.png",
         "dname": "Gloves of Haste",
         "qual": "component",
         "cost": 450,
@@ -913,7 +913,7 @@ let items = [
     },
     {
         "id": 485,
-        "img": "/apps/dota2/images/items/blitz_knuckles_lg.png?t=1593393829403",
+        "img": "blitz_knuckles.png",
         "dname": "Blitz Knuckles",
         "qual": "component",
         "cost": 1000,
@@ -941,7 +941,7 @@ let items = [
             "Passive: LifestealHeals the attacker for a percentage of attack damage dealt."
         ],
         "id": 26,
-        "img": "/apps/dota2/images/items/lifesteal_lg.png?t=1593393829403",
+        "img": "lifesteal.png",
         "dname": "Morbid Mask",
         "qual": "component",
         "cost": 900,
@@ -969,7 +969,7 @@ let items = [
             "Passive: Spell LifestealSpell damage dealt to enemy heroes is returned to the caster as health, regardless of spell damage type.  Lifesteal reduced against creeps."
         ],
         "id": 473,
-        "img": "/apps/dota2/images/items/voodoo_mask_lg.png?t=1593393829403",
+        "img": "voodoo_mask.png",
         "dname": "Voodoo Mask",
         "qual": "component",
         "cost": 700,
@@ -994,7 +994,7 @@ let items = [
     },
     {
         "id": 27,
-        "img": "/apps/dota2/images/items/ring_of_regen_lg.png?t=1593393829403",
+        "img": "ring_of_regen.png",
         "dname": "Ring of Regen",
         "qual": "component",
         "cost": 175,
@@ -1019,7 +1019,7 @@ let items = [
     },
     {
         "id": 279,
-        "img": "/apps/dota2/images/items/ring_of_tarrasque_lg.png?t=1593393829403",
+        "img": "ring_of_tarrasque.png",
         "dname": "Ring of Tarrasque",
         "qual": "component",
         "cost": 650,
@@ -1050,7 +1050,7 @@ let items = [
     },
     {
         "id": 28,
-        "img": "/apps/dota2/images/items/sobi_mask_lg.png?t=1593393829403",
+        "img": "sobi_mask.png",
         "dname": "Sage's Mask",
         "qual": "component",
         "cost": 175,
@@ -1078,7 +1078,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 29,
-        "img": "/apps/dota2/images/items/boots_lg.png?t=1593393829403",
+        "img": "boots.png",
         "dname": "Boots of Speed",
         "qual": "component",
         "cost": 500,
@@ -1108,7 +1108,7 @@ let items = [
             "Passive: EverlastingDropped on death, and cannot be destroyed."
         ],
         "id": 30,
-        "img": "/apps/dota2/images/items/gem_lg.png?t=1593393829403",
+        "img": "gem.png",
         "dname": "Gem of True Sight",
         "qual": "component",
         "cost": 900,
@@ -1126,7 +1126,7 @@ let items = [
     },
     {
         "id": 31,
-        "img": "/apps/dota2/images/items/cloak_lg.png?t=1593393829403",
+        "img": "cloak.png",
         "dname": "Cloak",
         "qual": "component",
         "cost": 500,
@@ -1151,7 +1151,7 @@ let items = [
     },
     {
         "id": 32,
-        "img": "/apps/dota2/images/items/talisman_of_evasion_lg.png?t=1593393829403",
+        "img": "talisman_of_evasion.png",
         "dname": "Talisman of Evasion",
         "qual": "secret_shop",
         "cost": 1300,
@@ -1179,7 +1179,7 @@ let items = [
             "Use: Fondue Instantly restores 2500 health and 1500 mana."
         ],
         "id": 33,
-        "img": "/apps/dota2/images/items/cheese_lg.png?t=1593393829403",
+        "img": "cheese.png",
         "dname": "Cheese",
         "qual": "consumable",
         "cost": 1000,
@@ -1200,7 +1200,7 @@ let items = [
             "Active: Energy Charge Instantly restores 15 health and mana per charge stored. Max 10 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability."
         ],
         "id": 34,
-        "img": "/apps/dota2/images/items/magic_stick_lg.png?t=1593393829403",
+        "img": "magic_stick.png",
         "dname": "Magic Stick",
         "qual": "component",
         "cost": 200,
@@ -1221,7 +1221,7 @@ let items = [
             "Active: Energy ChargeInstantly restores 15 health and mana per charge stored. Max 20 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability."
         ],
         "id": 36,
-        "img": "/apps/dota2/images/items/magic_wand_lg.png?t=1593393829403",
+        "img": "magic_wand.png",
         "dname": "Magic Wand",
         "qual": "common",
         "cost": 450,
@@ -1254,7 +1254,7 @@ let items = [
             "Active: Ghost Form You enter ghost form for 4 seconds, becoming immune to physical damage, but are unable to attack and -40% more vulnerable to magic damage."
         ],
         "id": 37,
-        "img": "/apps/dota2/images/items/ghost_lg.png?t=1593393829403",
+        "img": "ghost.png",
         "dname": "Ghost Scepter",
         "qual": "component",
         "cost": 1500,
@@ -1282,7 +1282,7 @@ let items = [
             "Use: Replenish Grants 6 mana regeneration to the target for 25 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost.Range: 250"
         ],
         "id": 38,
-        "img": "/apps/dota2/images/items/clarity_lg.png?t=1593393829403",
+        "img": "clarity.png",
         "dname": "Clarity",
         "qual": "consumable",
         "cost": 50,
@@ -1303,7 +1303,7 @@ let items = [
             "Use: Eat Mango Instantly restores 100 mana.Range: 400"
         ],
         "id": 216,
-        "img": "/apps/dota2/images/items/enchanted_mango_lg.png?t=1593393829403",
+        "img": "enchanted_mango.png",
         "dname": "Enchanted Mango",
         "qual": "consumable",
         "cost": 65,
@@ -1331,7 +1331,7 @@ let items = [
             "Use: Salve Grants 30 health regeneration to the target for 13 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost.Range: 250"
         ],
         "id": 39,
-        "img": "/apps/dota2/images/items/flask_lg.png?t=1593393829403",
+        "img": "flask.png",
         "dname": "Healing Salve",
         "qual": "consumable",
         "cost": 110,
@@ -1352,7 +1352,7 @@ let items = [
             "Use: RevealReveals and slows invisible heroes by %movespeed%%% in a %radius% radius around the caster for %duration% seconds. Invisible units revealed by dust take %damage% damage."
         ],
         "id": 40,
-        "img": "/apps/dota2/images/items/dust_lg.png?t=1593393829403",
+        "img": "dust.png",
         "dname": "Dust of Appearance",
         "qual": "consumable",
         "cost": 80,
@@ -1374,7 +1374,7 @@ let items = [
             "Passive:  Store RuneRunes can be stored in the bottle for later use by right-clicking them. Unused runes will automatically activate after 90 seconds.Using a stored rune fully refills the Bottle."
         ],
         "id": 41,
-        "img": "/apps/dota2/images/items/bottle_lg.png?t=1593393829403",
+        "img": "bottle.png",
         "dname": "Bottle",
         "qual": "common",
         "cost": 675,
@@ -1395,7 +1395,7 @@ let items = [
             "Use: PlantPlants an Observer Ward, an invisible watcher that gives ground vision in a %vision_range_tooltip% radius to your team. Lasts %duration_minutes_tooltip% minutes.Hold Control to give one Observer Ward to an allied hero.Range: %abilitycastrange%"
         ],
         "id": 42,
-        "img": "/apps/dota2/images/items/ward_observer_lg.png?t=1593393829403",
+        "img": "ward_observer.png",
         "dname": "Observer Ward",
         "qual": "consumable",
         "cost": 0,
@@ -1416,7 +1416,7 @@ let items = [
             "Use: Plant Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a %true_sight_range% radius.Lasts %duration_minutes_tooltip% minutes.Does not grant ground vision.Hold Control to give one Sentry Ward to an allied hero. Range: %abilitycastrange%"
         ],
         "id": 43,
-        "img": "/apps/dota2/images/items/ward_sentry_lg.png?t=1593393829403",
+        "img": "ward_sentry.png",
         "dname": "Sentry Ward",
         "qual": "consumable",
         "cost": 50,
@@ -1437,7 +1437,7 @@ let items = [
             "Use: Devour Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming an Ironwood Tree doubles the heal amount.Comes with 3 charges.  Can be used on an allied hero to give them one Tango.Tree Range: 165"
         ],
         "id": 44,
-        "img": "/apps/dota2/images/items/tango_lg.png?t=1593393829403",
+        "img": "tango.png",
         "dname": "Tango",
         "qual": "consumable",
         "cost": 90,
@@ -1458,7 +1458,7 @@ let items = [
             "Use: Devour Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming an Ironwood Tree doubles the heal amount.Tree Range: 165"
         ],
         "id": 241,
-        "img": "/apps/dota2/images/items/tango_single_lg.png?t=1593393829403",
+        "img": "tango_single.png",
         "dname": "Tango (Shared)",
         "qual": "consumable",
         "cost": 30,
@@ -1479,7 +1479,7 @@ let items = [
             "Use: Deploy Courier Deploys a creature to carry items to and from your team's base."
         ],
         "id": 45,
-        "img": "/apps/dota2/images/items/courier_lg.png?t=1593393829403",
+        "img": "courier.png",
         "dname": "Animal Courier",
         "qual": "consumable",
         "cost": 50,
@@ -1500,7 +1500,7 @@ let items = [
             "Use: Upgrade CourierUpgrades your team's Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team's base. Requires a deployed Animal Courier."
         ],
         "id": 286,
-        "img": "/apps/dota2/images/items/flying_courier_lg.png?t=1593393829403",
+        "img": "flying_courier.png",
         "dname": "Flying Courier",
         "qual": "consumable",
         "cost": 100,
@@ -1521,7 +1521,7 @@ let items = [
             "Use: TeleportAfter channeling for 3 seconds, teleports you to a target friendly building. Double-click to teleport to your team's base fountain."
         ],
         "id": 46,
-        "img": "/apps/dota2/images/items/tpscroll_lg.png?t=1593393829403",
+        "img": "tpscroll.png",
         "dname": "Town Portal Scroll",
         "qual": "consumable",
         "cost": 100,
@@ -1543,7 +1543,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 48,
-        "img": "/apps/dota2/images/items/travel_boots_lg.png?t=1593393829403",
+        "img": "travel_boots.png",
         "dname": "Boots of Travel",
         "qual": "common",
         "cost": 2500,
@@ -1580,7 +1580,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 220,
-        "img": "/apps/dota2/images/items/travel_boots_2_lg.png?t=1593393829403",
+        "img": "travel_boots_2.png",
         "dname": "Boots of Travel 2",
         "qual": "common",
         "cost": 4500,
@@ -1605,7 +1605,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 50,
-        "img": "/apps/dota2/images/items/phase_boots_lg.png?t=1593393829403",
+        "img": "phase_boots.png",
         "dname": "Phase Boots",
         "qual": "common",
         "cost": 1500,
@@ -1650,7 +1650,7 @@ let items = [
     },
     {
         "id": 51,
-        "img": "/apps/dota2/images/items/demon_edge_lg.png?t=1593393829403",
+        "img": "demon_edge.png",
         "dname": "Demon Edge",
         "qual": "secret_shop",
         "cost": 2200,
@@ -1675,7 +1675,7 @@ let items = [
     },
     {
         "id": 52,
-        "img": "/apps/dota2/images/items/eagle_lg.png?t=1593393829403",
+        "img": "eagle.png",
         "dname": "Eaglesong",
         "qual": "secret_shop",
         "cost": 2800,
@@ -1700,7 +1700,7 @@ let items = [
     },
     {
         "id": 53,
-        "img": "/apps/dota2/images/items/reaver_lg.png?t=1593393829403",
+        "img": "reaver.png",
         "dname": "Reaver",
         "qual": "secret_shop",
         "cost": 2800,
@@ -1725,7 +1725,7 @@ let items = [
     },
     {
         "id": 54,
-        "img": "/apps/dota2/images/items/relic_lg.png?t=1593393829403",
+        "img": "relic.png",
         "dname": "Sacred Relic",
         "qual": "secret_shop",
         "cost": 3750,
@@ -1750,7 +1750,7 @@ let items = [
     },
     {
         "id": 55,
-        "img": "/apps/dota2/images/items/hyperstone_lg.png?t=1593393829403",
+        "img": "hyperstone.png",
         "dname": "Hyperstone",
         "qual": "secret_shop",
         "cost": 2000,
@@ -1775,7 +1775,7 @@ let items = [
     },
     {
         "id": 56,
-        "img": "/apps/dota2/images/items/ring_of_health_lg.png?t=1593393829403",
+        "img": "ring_of_health.png",
         "dname": "Ring of Health",
         "qual": "component",
         "cost": 825,
@@ -1800,7 +1800,7 @@ let items = [
     },
     {
         "id": 57,
-        "img": "/apps/dota2/images/items/void_stone_lg.png?t=1593393829403",
+        "img": "void_stone.png",
         "dname": "Void Stone",
         "qual": "component",
         "cost": 825,
@@ -1825,7 +1825,7 @@ let items = [
     },
     {
         "id": 58,
-        "img": "/apps/dota2/images/items/mystic_staff_lg.png?t=1593393829403",
+        "img": "mystic_staff.png",
         "dname": "Mystic Staff",
         "qual": "secret_shop",
         "cost": 2800,
@@ -1850,7 +1850,7 @@ let items = [
     },
     {
         "id": 59,
-        "img": "/apps/dota2/images/items/energy_booster_lg.png?t=1593393829403",
+        "img": "energy_booster.png",
         "dname": "Energy Booster",
         "qual": "secret_shop",
         "cost": 800,
@@ -1875,7 +1875,7 @@ let items = [
     },
     {
         "id": 60,
-        "img": "/apps/dota2/images/items/point_booster_lg.png?t=1593393829403",
+        "img": "point_booster.png",
         "dname": "Point Booster",
         "qual": "secret_shop",
         "cost": 1200,
@@ -1906,7 +1906,7 @@ let items = [
     },
     {
         "id": 61,
-        "img": "/apps/dota2/images/items/vitality_booster_lg.png?t=1593393829403",
+        "img": "vitality_booster.png",
         "dname": "Vitality Booster",
         "qual": "secret_shop",
         "cost": 1000,
@@ -1931,7 +1931,7 @@ let items = [
     },
     {
         "id": 593,
-        "img": "/apps/dota2/images/items/fluffy_hat_lg.png?t=1593393829403",
+        "img": "fluffy_hat.png",
         "dname": "Fluffy Hat",
         "qual": "secret_shop",
         "cost": 250,
@@ -1960,7 +1960,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 63,
-        "img": "/apps/dota2/images/items/power_treads_lg.png?t=1593393829403",
+        "img": "power_treads.png",
         "dname": "Power Treads",
         "qual": "common",
         "cost": 1400,
@@ -2001,7 +2001,7 @@ let items = [
     },
     {
         "id": 655,
-        "img": "/apps/dota2/images/items/grandmasters_glaive_lg.png?t=1593393829403",
+        "img": "grandmasters_glaive.png",
         "dname": "Grandmaster's Glaive",
         "qual": "common",
         "cost": 5000,
@@ -2022,7 +2022,7 @@ let items = [
             "Active: Transmute Kills a non-hero target for 160 gold and 2.1x experience.  Cannot be used on Ancient Creeps.Range: 600"
         ],
         "id": 65,
-        "img": "/apps/dota2/images/items/hand_of_midas_lg.png?t=1593393829403",
+        "img": "hand_of_midas.png",
         "dname": "Hand of Midas",
         "qual": "common",
         "cost": 2200,
@@ -2050,7 +2050,7 @@ let items = [
     },
     {
         "id": 67,
-        "img": "/apps/dota2/images/items/oblivion_staff_lg.png?t=1593393829403",
+        "img": "oblivion_staff.png",
         "dname": "Oblivion Staff",
         "qual": "common",
         "cost": 1500,
@@ -2100,7 +2100,7 @@ let items = [
             "Passive: Witch BladeCauses your next attack to apply a poison for 4 seconds, slowing by 25% and dealing 0.75x your intelligence as damage every second. This attack has True Strike."
         ],
         "id": 534,
-        "img": "/apps/dota2/images/items/witch_blade_lg.png?t=1593393829403",
+        "img": "witch_blade.png",
         "dname": "Witch Blade",
         "qual": "common",
         "cost": 2600,
@@ -2148,7 +2148,7 @@ let items = [
     },
     {
         "id": 69,
-        "img": "/apps/dota2/images/items/pers_lg.png?t=1593393829403",
+        "img": "pers.png",
         "dname": "Perseverance",
         "qual": "common",
         "cost": 1650,
@@ -2185,7 +2185,7 @@ let items = [
             "Passive: Damage BlockGives a 100% chance to block 30 damage from incoming attacks on melee heroes, and 20 damage on ranged.Has a 50% chance to block damage from creeps."
         ],
         "id": 71,
-        "img": "/apps/dota2/images/items/poor_mans_shield_lg.png?t=1593393829403",
+        "img": "poor_mans_shield.png",
         "dname": "Poor Man's Shield",
         "qual": "common",
         "cost": 0,
@@ -2213,7 +2213,7 @@ let items = [
             "Increases XP that you earn by 15%."
         ],
         "id": 731,
-        "img": "/apps/dota2/images/items/satchel_lg.png?t=1593393829403",
+        "img": "satchel.png",
         "dname": "Satchel",
         "qual": "common",
         "cost": 0,
@@ -2241,7 +2241,7 @@ let items = [
             "Doubles its bonuses after minute %clock_time%."
         ],
         "id": 73,
-        "img": "/apps/dota2/images/items/bracer_lg.png?t=1593393829403",
+        "img": "bracer.png",
         "dname": "Bracer",
         "qual": "common",
         "cost": 505,
@@ -2266,7 +2266,7 @@ let items = [
             "Doubles its bonuses after minute %clock_time%."
         ],
         "id": 75,
-        "img": "/apps/dota2/images/items/wraith_band_lg.png?t=1593393829403",
+        "img": "wraith_band.png",
         "dname": "Wraith Band",
         "qual": "common",
         "cost": 505,
@@ -2291,7 +2291,7 @@ let items = [
             "Doubles its bonuses after minute %clock_time%."
         ],
         "id": 77,
-        "img": "/apps/dota2/images/items/null_talisman_lg.png?t=1593393829403",
+        "img": "null_talisman.png",
         "dname": "Null Talisman",
         "qual": "common",
         "cost": 505,
@@ -2317,7 +2317,7 @@ let items = [
             "Passive: Mekansm AuraGrants 2.5 health regeneration to allied units in a 1200 radius."
         ],
         "id": 79,
-        "img": "/apps/dota2/images/items/mekansm_lg.png?t=1593393829403",
+        "img": "mekansm.png",
         "dname": "Mekansm",
         "qual": "rare",
         "cost": 1875,
@@ -2349,7 +2349,7 @@ let items = [
             "Passive: Vladmir's AuraGrants 15% lifesteal, 18% bonus damage, 1.75 mana regeneration, and 3 armor to nearby allies. Radius: 1200"
         ],
         "id": 81,
-        "img": "/apps/dota2/images/items/vladmir_lg.png?t=1593393829403",
+        "img": "vladmir.png",
         "dname": "Vladmir's Offering",
         "qual": "rare",
         "cost": 2450,
@@ -2377,7 +2377,7 @@ let items = [
             "Passive: Vladmir's AuraGrants %lifesteal_aura%%% lifesteal, %damage_aura%%% bonus damage, %mana_regen_aura% mana regeneration, and %armor_aura% armor to nearby allies. Radius: %aura_radius%"
         ],
         "id": 908,
-        "img": "/apps/dota2/images/items/wraith_pact_lg.png?t=1593393829403",
+        "img": "wraith_pact.png",
         "dname": "Wraith Pact",
         "qual": "rare",
         "cost": 4050,
@@ -2402,7 +2402,7 @@ let items = [
             "Passive: Buckler Aura Grants 2 armor to allied player units.Radius: 1200"
         ],
         "id": 86,
-        "img": "/apps/dota2/images/items/buckler_lg.png?t=1593393829403",
+        "img": "buckler.png",
         "dname": "Buckler",
         "qual": "rare",
         "cost": 425,
@@ -2433,7 +2433,7 @@ let items = [
             "Passive: Basilius AuraGrants 1 mana regeneration to allies.  Radius: 1200"
         ],
         "id": 88,
-        "img": "/apps/dota2/images/items/ring_of_basilius_lg.png?t=1593393829403",
+        "img": "ring_of_basilius.png",
         "dname": "Ring of Basilius",
         "qual": "rare",
         "cost": 425,
@@ -2466,7 +2466,7 @@ let items = [
             "Passive: Regeneration AuraGrants %aura_health_regen% health regeneration to allies.Radius: %aura_radius%"
         ],
         "id": 269,
-        "img": "/apps/dota2/images/items/holy_locket_lg.png?t=1593393829403",
+        "img": "holy_locket.png",
         "dname": "Holy Locket",
         "qual": "rare",
         "cost": 2400,
@@ -2494,7 +2494,7 @@ let items = [
             "Passive: Insight Aura Gives allied units 2.5 health regeneration and 12% magic resistance.Radius: 1200"
         ],
         "id": 90,
-        "img": "/apps/dota2/images/items/pipe_lg.png?t=1593393829403",
+        "img": "pipe.png",
         "dname": "Pipe of Insight",
         "qual": "rare",
         "cost": 3475,
@@ -2532,7 +2532,7 @@ let items = [
             "Active: Soul Release Provides 30 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies. Lasts 8 seconds.  Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.Cast Range: 950"
         ],
         "id": 92,
-        "img": "/apps/dota2/images/items/urn_of_shadows_lg.png?t=1593393829403",
+        "img": "urn_of_shadows.png",
         "dname": "Urn of Shadows",
         "qual": "rare",
         "cost": 880,
@@ -2577,7 +2577,7 @@ let items = [
             "Passive: Regeneration AuraGrants 2 health regeneration to allies.Radius: 1200"
         ],
         "id": 94,
-        "img": "/apps/dota2/images/items/headdress_lg.png?t=1593393829403",
+        "img": "headdress.png",
         "dname": "Headdress",
         "qual": "rare",
         "cost": 425,
@@ -2608,7 +2608,7 @@ let items = [
             "Active: HexTurns a target unit into a harmless critter for 3.5 seconds. The target has a base movement speed of 140 and will be silenced, muted, and disarmed.Instantly destroys illusions.Range: 800"
         ],
         "id": 96,
-        "img": "/apps/dota2/images/items/sheepstick_lg.png?t=1593393829403",
+        "img": "sheepstick.png",
         "dname": "Scythe of Vyse",
         "qual": "rare",
         "cost": 5675,
@@ -2658,7 +2658,7 @@ let items = [
             "Active: Soul BurnSilences the target unit for %silence_duration% seconds. At the end of the silence, %silence_damage_percent%%% of the damage received while silenced is inflicted as bonus magical damage.Range: %abilitycastrange%"
         ],
         "id": 98,
-        "img": "/apps/dota2/images/items/orchid_lg.png?t=1593393829403",
+        "img": "orchid.png",
         "dname": "Orchid Malevolence",
         "qual": "rare",
         "cost": 3475,
@@ -2685,7 +2685,7 @@ let items = [
             "Passive: Mage SlayerPlaces a debuff when you attack enemies, causing them to do %spell_amp_debuff%%% less spell damage for %duration% seconds."
         ],
         "id": 250,
-        "img": "/apps/dota2/images/items/bloodthorn_lg.png?t=1593393829403",
+        "img": "bloodthorn.png",
         "dname": "Bloodthorn",
         "qual": "epic",
         "cost": 6800,
@@ -2710,7 +2710,7 @@ let items = [
             "Passive: Echo Strike Causes melee attacks to attack twice in quick succession. The double attacks apply a 100% movement slow for 0.8 seconds on each strike."
         ],
         "id": 252,
-        "img": "/apps/dota2/images/items/echo_sabre_lg.png?t=1593393829403",
+        "img": "echo_sabre.png",
         "dname": "Echo Sabre",
         "qual": "artifact",
         "cost": 2500,
@@ -2765,7 +2765,7 @@ let items = [
             "Active: Cyclone Sweeps a target unit up into a cyclone, making them invulnerable for 2.5 seconds. Cyclone can only be cast on enemy units or yourself.Enemy units take 50 magical damage upon landing.Range: 550Dispel Type: Basic Dispel"
         ],
         "id": 100,
-        "img": "/apps/dota2/images/items/cyclone_lg.png?t=1593393829403",
+        "img": "cyclone.png",
         "dname": "Eul's Scepter of Divinity",
         "qual": "rare",
         "cost": 2725,
@@ -2810,7 +2810,7 @@ let items = [
             "Active: Cyclone Sweeps a target unit up into a cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself, enemy units or allied units.Enemy units take 50 magical damage upon landing.Range: 550Dispel Type: Basic Dispel"
         ],
         "id": 610,
-        "img": "/apps/dota2/images/items/wind_waker_lg.png?t=1593393829403",
+        "img": "wind_waker.png",
         "dname": "Wind Waker",
         "qual": "rare",
         "cost": 6825,
@@ -2854,7 +2854,7 @@ let items = [
             "Passive: Aethereal Focus Increases targeted spell and item cast range."
         ],
         "id": 232,
-        "img": "/apps/dota2/images/items/aether_lens_lg.png?t=1593393829403",
+        "img": "aether_lens.png",
         "dname": "Aether Lens",
         "qual": "rare",
         "cost": 2275,
@@ -2898,7 +2898,7 @@ let items = [
             "Active: ForcePushes any target unit %push_length% units in the direction it is facing.Range: %abilitycastrange%"
         ],
         "id": 102,
-        "img": "/apps/dota2/images/items/force_staff_lg.png?t=1593393829403",
+        "img": "force_staff.png",
         "dname": "Force Staff",
         "qual": "rare",
         "cost": 2200,
@@ -2924,7 +2924,7 @@ let items = [
             "Passive:  Dragon's Reach Increases attack range of ranged heroes."
         ],
         "id": 263,
-        "img": "/apps/dota2/images/items/hurricane_pike_lg.png?t=1593393829403",
+        "img": "hurricane_pike.png",
         "dname": "Hurricane Pike",
         "qual": "epic",
         "cost": 4450,
@@ -2949,7 +2949,7 @@ let items = [
             "Active: Energy Burst Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.Damage: 400,500,600,700,800Range: 700,750,800,850,900Mana Cost: 120,140,160,180,200"
         ],
         "id": 104,
-        "img": "/apps/dota2/images/items/dagon_lg.png?t=1593393829403",
+        "img": "dagon.png",
         "dname": "Dagon",
         "qual": "rare",
         "cost": 2700,
@@ -3011,7 +3011,7 @@ let items = [
             "Active: Energy Burst Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.Damage: 400,500,600,700,800Range: 700,750,800,850,900Mana Cost: 120,140,160,180,200"
         ],
         "id": 201,
-        "img": "/apps/dota2/images/items/dagon_2_lg.png?t=1593393829403",
+        "img": "dagon_2.png",
         "dname": "Dagon",
         "qual": "rare",
         "cost": 3950,
@@ -3072,7 +3072,7 @@ let items = [
             "Active: Energy Burst Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.Damage: 400,500,600,700,800Range: 700,750,800,850,900Mana Cost: 120,140,160,180,200"
         ],
         "id": 202,
-        "img": "/apps/dota2/images/items/dagon_3_lg.png?t=1593393829403",
+        "img": "dagon_3.png",
         "dname": "Dagon",
         "qual": "rare",
         "cost": 5200,
@@ -3133,7 +3133,7 @@ let items = [
             "Active: Energy Burst Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.Damage: 400,500,600,700,800Range: 700,750,800,850,900Mana Cost: 120,140,160,180,200"
         ],
         "id": 203,
-        "img": "/apps/dota2/images/items/dagon_4_lg.png?t=1593393829403",
+        "img": "dagon_4.png",
         "dname": "Dagon",
         "qual": "rare",
         "cost": 6450,
@@ -3194,7 +3194,7 @@ let items = [
             "Active: Energy Burst Emits a powerful burst of magical damage upon a targeted enemy unit.Damage: 400,500,600,700,800Range: 700,750,800,850,900Mana Cost: 120,140,160,180,200"
         ],
         "id": 204,
-        "img": "/apps/dota2/images/items/dagon_5_lg.png?t=1593393829403",
+        "img": "dagon_5.png",
         "dname": "Dagon",
         "qual": "rare",
         "cost": 7700,
@@ -3255,7 +3255,7 @@ let items = [
             "Passive: Ability UpgradeUpgrades the ultimate, and some abilities, of all heroes."
         ],
         "id": 108,
-        "img": "/apps/dota2/images/items/ultimate_scepter_lg.png?t=1593393829403",
+        "img": "ultimate_scepter.png",
         "dname": "Aghanim's Scepter",
         "qual": "rare",
         "cost": 4200,
@@ -3300,7 +3300,7 @@ let items = [
             "Passive: Ability UpgradeUpgrades the ultimate, and some abilities, of all heroes."
         ],
         "id": 271,
-        "img": "/apps/dota2/images/items/ultimate_scepter_2_lg.png?t=1593393829403",
+        "img": "ultimate_scepter_2.png",
         "dname": "Aghanim's Blessing",
         "qual": "rare",
         "cost": 5800,
@@ -3324,7 +3324,7 @@ let items = [
             "Passive: Ability UpgradeUpgrades the ultimate, and some abilities, of all heroes."
         ],
         "id": 727,
-        "img": "/apps/dota2/images/items/ultimate_scepter_roshan_lg.png?t=1593393829403",
+        "img": "ultimate_scepter_roshan.png",
         "dname": "Aghanim's Blessing - Roshan",
         "qual": "rare",
         "cost": 5800,
@@ -3345,7 +3345,7 @@ let items = [
             "Passive: Ability UpgradeUpgrades an existing ability or adds a new ability to your hero."
         ],
         "id": 609,
-        "img": "/apps/dota2/images/items/aghanims_shard_lg.png?t=1593393829403",
+        "img": "aghanims_shard.png",
         "dname": "Aghanim's Shard",
         "qual": "rare",
         "cost": 1400,
@@ -3366,7 +3366,7 @@ let items = [
             "Passive: Ability UpgradeUpgrades an existing ability or adds a new ability to your hero.."
         ],
         "id": 725,
-        "img": "/apps/dota2/images/items/aghanims_shard_roshan_lg.png?t=1593393829403",
+        "img": "aghanims_shard_roshan.png",
         "dname": "Aghanim's Shard - Roshan",
         "qual": "rare",
         "cost": 1400,
@@ -3387,7 +3387,7 @@ let items = [
             "Active: Reset CooldownsResets the cooldowns of all your items and abilities."
         ],
         "id": 110,
-        "img": "/apps/dota2/images/items/refresher_lg.png?t=1593393829403",
+        "img": "refresher.png",
         "dname": "Refresher Orb",
         "qual": "rare",
         "cost": 5000,
@@ -3425,7 +3425,7 @@ let items = [
             "Passive: Assault Aura Grants 30 attack speed and 5 armor to nearby allied units and structures, and decreases nearby enemy unit and structure armor by -5.Radius: 1200"
         ],
         "id": 112,
-        "img": "/apps/dota2/images/items/assault_lg.png?t=1593393829403",
+        "img": "assault.png",
         "dname": "Assault Cuirass",
         "qual": "epic",
         "cost": 5125,
@@ -3461,7 +3461,7 @@ let items = [
     },
     {
         "id": 114,
-        "img": "/apps/dota2/images/items/heart_lg.png?t=1593393829403",
+        "img": "heart.png",
         "dname": "Heart of Tarrasque",
         "qual": "epic",
         "cost": 5000,
@@ -3504,7 +3504,7 @@ let items = [
             "Active: Avatar Grants Spell Immunity.  Duration decreases with each use. Duration: 9,8,7,6 Dispel Type: Basic Dispel"
         ],
         "id": 116,
-        "img": "/apps/dota2/images/items/black_king_bar_lg.png?t=1593393829403",
+        "img": "black_king_bar.png",
         "dname": "Black King Bar",
         "qual": "epic",
         "cost": 4050,
@@ -3542,7 +3542,7 @@ let items = [
             "Passive: Reincarnation Brings you to life with full health and mana 5 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage)."
         ],
         "id": 117,
-        "img": "/apps/dota2/images/items/aegis_lg.png?t=1593393829403",
+        "img": "aegis.png",
         "dname": "Aegis of the Immortal",
         "qual": "artifact",
         "cost": 0,
@@ -3564,7 +3564,7 @@ let items = [
             "Passive: Freezing Aura Reduces the attack speed of all enemies by -45 and all heals, regeneration and lifesteal by 25%. Radius: 1200"
         ],
         "id": 119,
-        "img": "/apps/dota2/images/items/shivas_guard_lg.png?t=1593393829403",
+        "img": "shivas_guard.png",
         "dname": "Shiva's Guard",
         "qual": "epic",
         "cost": 4850,
@@ -3602,7 +3602,7 @@ let items = [
             "Active: Bloodpact Doubles Bloodstone's Spell Lifesteal and also converts the same percentage of damage dealt to mana. Lasts %buff_duration% seconds. Costs %hp_cost%%% of your current HP to activate"
         ],
         "id": 121,
-        "img": "/apps/dota2/images/items/bloodstone_lg.png?t=1593393829403",
+        "img": "bloodstone.png",
         "dname": "Bloodstone",
         "qual": "epic",
         "cost": 4600,
@@ -3628,7 +3628,7 @@ let items = [
             "Active: Transfer SpellblockTemporarily removes Spellblock from the item's owner and transfers it to an allied unit for 12 seconds.Range: 700"
         ],
         "id": 123,
-        "img": "/apps/dota2/images/items/sphere_lg.png?t=1593393829403",
+        "img": "sphere.png",
         "dname": "Linken's Sphere",
         "qual": "epic",
         "cost": 4600,
@@ -3672,7 +3672,7 @@ let items = [
             "Active: Echo ShellApplies a shield to the target unit for 6 seconds which re-casts most targeted spells back to their caster.The shielded unit will still take damage from the spell. Range: 900Dispel Type: Basic Dispel"
         ],
         "id": 226,
-        "img": "/apps/dota2/images/items/lotus_orb_lg.png?t=1593393829403",
+        "img": "lotus_orb.png",
         "dname": "Lotus Orb",
         "qual": "epic",
         "cost": 3850,
@@ -3722,7 +3722,7 @@ let items = [
             "Active: Meteor Hammer CHANNELED - After a successful channel, summons a meteor that strikes a %impact_radius% AoE, stunning enemies for %stun_duration% seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for %burn_duration% seconds.Building Impact Damage: %impact_damage_buildings% Building Over Time Damage: %burn_dps_buildings% Non-Building Impact Damage: %impact_damage_units% Non-Building Over Time Damage: %burn_dps_units% Channel Duration: %max_duration% seconds.Landing Time: %land_time% seconds."
         ],
         "id": 223,
-        "img": "/apps/dota2/images/items/meteor_hammer_lg.png?t=1593393829403",
+        "img": "meteor_hammer.png",
         "dname": "Meteor Hammer",
         "qual": "epic",
         "cost": 2350,
@@ -3747,7 +3747,7 @@ let items = [
             "Active: Nullify Dispels the target and applies a debuff for 5 seconds. Continuously dispels the target.Dispel Type: Basic Dispel"
         ],
         "id": 225,
-        "img": "/apps/dota2/images/items/nullifier_lg.png?t=1593393829403",
+        "img": "nullifier.png",
         "dname": "Nullifier",
         "qual": "epic",
         "cost": 4725,
@@ -3790,7 +3790,7 @@ let items = [
             "Passive: Combo Breaker When you take damage and your health falls below 70%, a strong dispel is applied and you gain a 2.5 second buff that provides +75% Status Resistance and causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. Cooldown increases every time it triggers.Dispel Type: Strong Dispel"
         ],
         "id": 256,
-        "img": "/apps/dota2/images/items/aeon_disk_lg.png?t=1593393829403",
+        "img": "aeon_disk.png",
         "dname": "Aeon Disk",
         "qual": "epic",
         "cost": 3000,
@@ -3835,7 +3835,7 @@ let items = [
     },
     {
         "id": 259,
-        "img": "/apps/dota2/images/items/kaya_lg.png?t=1593393829403",
+        "img": "kaya.png",
         "dname": "Kaya",
         "qual": "epic",
         "cost": 2050,
@@ -3860,7 +3860,7 @@ let items = [
             "Combines Sange, Yasha and Kaya together."
         ],
         "id": 369,
-        "img": "/apps/dota2/images/items/trident_lg.png?t=1593393829403",
+        "img": "trident.png",
         "dname": "Trident",
         "cost": 0,
         "notes": "",
@@ -3941,7 +3941,7 @@ let items = [
             "Use: Reset CooldownsResets the cooldowns of all your items and abilities."
         ],
         "id": 260,
-        "img": "/apps/dota2/images/items/refresher_shard_lg.png?t=1593393829403",
+        "img": "refresher_shard.png",
         "dname": "Refresher Shard",
         "qual": "consumable",
         "cost": 1000,
@@ -3962,7 +3962,7 @@ let items = [
             "Active: Soul Release When used against enemies, it reduces health by 4% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by 45%. Deals 35 damage per second. When used on allies, it provides 40 health regeneration per second. Lasts 8 seconds.  Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.Cast Range: 950"
         ],
         "id": 267,
-        "img": "/apps/dota2/images/items/spirit_vessel_lg.png?t=1593393829403",
+        "img": "spirit_vessel.png",
         "dname": "Spirit Vessel",
         "qual": "rare",
         "cost": 2980,
@@ -4012,7 +4012,7 @@ let items = [
             "Passive: Damage Block Grants a 60% chance to block 64 damage from incoming attacks on melee heroes, and 32 damage on ranged."
         ],
         "id": 125,
-        "img": "/apps/dota2/images/items/vanguard_lg.png?t=1593393829403",
+        "img": "vanguard.png",
         "dname": "Vanguard",
         "qual": "epic",
         "cost": 1825,
@@ -4050,7 +4050,7 @@ let items = [
             "Passive: Damage Block Grants a %block_chance%%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged."
         ],
         "id": 242,
-        "img": "/apps/dota2/images/items/crimson_guard_lg.png?t=1593393829403",
+        "img": "crimson_guard.png",
         "dname": "Crimson Guard",
         "qual": "epic",
         "cost": 3600,
@@ -4076,7 +4076,7 @@ let items = [
             "Passive: Damage ReturnEverytime you are attacked, you return 20 damage plus 20% of the attack damage dealt to you."
         ],
         "id": 127,
-        "img": "/apps/dota2/images/items/blade_mail_lg.png?t=1593393829403",
+        "img": "blade_mail.png",
         "dname": "Blade Mail",
         "qual": "epic",
         "cost": 2100,
@@ -4111,7 +4111,7 @@ let items = [
     },
     {
         "id": 129,
-        "img": "/apps/dota2/images/items/soul_booster_lg.png?t=1593393829403",
+        "img": "soul_booster.png",
         "dname": "Soul Booster",
         "qual": "epic",
         "cost": 3000,
@@ -4149,7 +4149,7 @@ let items = [
             "Active: Barrier Creates a spell shield that absorbs up to %barrier_block% magical damage.  Lasts %barrier_duration% seconds."
         ],
         "id": 131,
-        "img": "/apps/dota2/images/items/hood_of_defiance_lg.png?t=1593393829403",
+        "img": "hood_of_defiance.png",
         "dname": "Hood of Defiance",
         "qual": "epic",
         "cost": 1500,
@@ -4175,7 +4175,7 @@ let items = [
             "Active: Shroud Creates a spell shield that absorbs up to 400 magical damage, converting damage taken into mana.  Lasts 12 seconds."
         ],
         "id": 692,
-        "img": "/apps/dota2/images/items/eternal_shroud_lg.png?t=1593393829403",
+        "img": "eternal_shroud.png",
         "dname": "Eternal Shroud",
         "qual": "epic",
         "cost": 3300,
@@ -4219,7 +4219,7 @@ let items = [
             "Passive: Everlasting Dropped on death, and cannot be destroyed. Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up and is killed. A dropped Rapier cannot be picked up by a courier."
         ],
         "id": 133,
-        "img": "/apps/dota2/images/items/rapier_lg.png?t=1593393829403",
+        "img": "rapier.png",
         "dname": "Divine Rapier",
         "qual": "epic",
         "cost": 5950,
@@ -4250,7 +4250,7 @@ let items = [
             "Passive: PierceGrants each attack a 80% chance to pierce through evasion and deal 70 bonus magical damage."
         ],
         "id": 135,
-        "img": "/apps/dota2/images/items/monkey_king_bar_lg.png?t=1593393829403",
+        "img": "monkey_king_bar.png",
         "dname": "Monkey King Bar",
         "qual": "epic",
         "cost": 4975,
@@ -4289,7 +4289,7 @@ let items = [
             "Toggle: Burn When active, scorches enemies for %aura_damage% magical damage per second and causes them to miss %blind_pct%%% of their attacks. Illusions deal %aura_damage_illusions% magical damage per second.Radius: %aura_radius%"
         ],
         "id": 137,
-        "img": "/apps/dota2/images/items/radiance_lg.png?t=1593393829403",
+        "img": "radiance.png",
         "dname": "Radiance",
         "qual": "epic",
         "cost": 5050,
@@ -4310,7 +4310,7 @@ let items = [
     },
     {
         "id": 139,
-        "img": "/apps/dota2/images/items/butterfly_lg.png?t=1593393829403",
+        "img": "butterfly.png",
         "dname": "Butterfly",
         "qual": "epic",
         "cost": 4975,
@@ -4360,7 +4360,7 @@ let items = [
             "Passive: Critical StrikeGrants each attack a 30% chance to deal 225% damage."
         ],
         "id": 141,
-        "img": "/apps/dota2/images/items/greater_crit_lg.png?t=1593393829403",
+        "img": "greater_crit.png",
         "dname": "Daedalus",
         "qual": "epic",
         "cost": 5150,
@@ -4392,7 +4392,7 @@ let items = [
             "Passive: Bash Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 100 bonus physical damage.  Bash chance for ranged heroes is 10%."
         ],
         "id": 143,
-        "img": "/apps/dota2/images/items/basher_lg.png?t=1593393829403",
+        "img": "basher.png",
         "dname": "Skull Basher",
         "qual": "epic",
         "cost": 2875,
@@ -4432,7 +4432,7 @@ let items = [
             "Passive: Cleave Deals 70% of attack damage as physical damage in a cone up to 650 around the target. Deals 40% against creeps. (Melee Only)"
         ],
         "id": 145,
-        "img": "/apps/dota2/images/items/bfury_lg.png?t=1593393829403",
+        "img": "bfury.png",
         "dname": "Battle Fury",
         "qual": "epic",
         "cost": 4100,
@@ -4477,7 +4477,7 @@ let items = [
             "Active: Mirror ImageCreates 2 images of your hero that last 20 seconds. Melee images deal 33% damage, while Ranged images deal 28%. Illusions take 300% damage. Dispel Type: Basic Dispel"
         ],
         "id": 147,
-        "img": "/apps/dota2/images/items/manta_lg.png?t=1593393829403",
+        "img": "manta.png",
         "dname": "Manta Style",
         "qual": "epic",
         "cost": 4600,
@@ -4533,7 +4533,7 @@ let items = [
             "Passive: Critical StrikeGrants each attack a 30% chance to deal 160% damage."
         ],
         "id": 149,
-        "img": "/apps/dota2/images/items/lesser_crit_lg.png?t=1593393829403",
+        "img": "lesser_crit.png",
         "dname": "Crystalys",
         "qual": "epic",
         "cost": 1950,
@@ -4565,7 +4565,7 @@ let items = [
             "Passive: Dragon's Reach Increases attack range of ranged heroes."
         ],
         "id": 236,
-        "img": "/apps/dota2/images/items/dragon_lance_lg.png?t=1593393829403",
+        "img": "dragon_lance.png",
         "dname": "Dragon Lance",
         "qual": "artifact",
         "cost": 1900,
@@ -4609,7 +4609,7 @@ let items = [
             "Toggle: Unholy StrengthWhen active, Unholy Strength grants +%unholy_bonus_damage% damage, +%unholy_bonus_strength% strength and +%unholy_bonus_armor% armor, but drains %unholy_health_drain_per_second% health per second. You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated."
         ],
         "id": 151,
-        "img": "/apps/dota2/images/items/armlet_lg.png?t=1593393829403",
+        "img": "armlet.png",
         "dname": "Armlet of Mordiggian",
         "qual": "epic",
         "cost": 2500,
@@ -4635,7 +4635,7 @@ let items = [
             "Active: Shadow WalkMakes you invisible for 14 seconds, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus physical damage on that attack."
         ],
         "id": 152,
-        "img": "/apps/dota2/images/items/invis_sword_lg.png?t=1593393829403",
+        "img": "invis_sword.png",
         "dname": "Shadow Blade",
         "qual": "epic",
         "cost": 3000,
@@ -4674,7 +4674,7 @@ let items = [
             "Passive: Critical StrikeGrants each attack a 30% chance to deal 160% damage."
         ],
         "id": 249,
-        "img": "/apps/dota2/images/items/silver_edge_lg.png?t=1593393829403",
+        "img": "silver_edge.png",
         "dname": "Silver Edge",
         "qual": "epic",
         "cost": 5450,
@@ -4709,7 +4709,7 @@ let items = [
     },
     {
         "id": 154,
-        "img": "/apps/dota2/images/items/sange_and_yasha_lg.png?t=1593393829403",
+        "img": "sange_and_yasha.png",
         "dname": "Sange and Yasha",
         "qual": "artifact",
         "cost": 4100,
@@ -4765,7 +4765,7 @@ let items = [
     },
     {
         "id": 273,
-        "img": "/apps/dota2/images/items/kaya_and_sange_lg.png?t=1593393829403",
+        "img": "kaya_and_sange.png",
         "dname": "Kaya and Sange",
         "qual": "artifact",
         "cost": 4100,
@@ -4786,7 +4786,7 @@ let items = [
     },
     {
         "id": 277,
-        "img": "/apps/dota2/images/items/yasha_and_kaya_lg.png?t=1593393829403",
+        "img": "yasha_and_kaya.png",
         "dname": "Yasha and Kaya",
         "qual": "artifact",
         "cost": 4100,
@@ -4811,7 +4811,7 @@ let items = [
             "Passive: LifestealHeals the attacker for a percentage of attack damage dealt."
         ],
         "id": 156,
-        "img": "/apps/dota2/images/items/satanic_lg.png?t=1593393829403",
+        "img": "satanic.png",
         "dname": "Satanic",
         "qual": "artifact",
         "cost": 5050,
@@ -4837,7 +4837,7 @@ let items = [
             "Passive: Chain LightningGrants a 30% chance on attack to release a bolt of electricity that leaps between 12 targets within a 650 radius, dealing 180 magical damage to each. Lightning proc pierces evasion."
         ],
         "id": 158,
-        "img": "/apps/dota2/images/items/mjollnir_lg.png?t=1593393829403",
+        "img": "mjollnir.png",
         "dname": "Mjollnir",
         "qual": "artifact",
         "cost": 5600,
@@ -4875,7 +4875,7 @@ let items = [
             "Passive: Cold Attack Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
         ],
         "id": 160,
-        "img": "/apps/dota2/images/items/skadi_lg.png?t=1593393829403",
+        "img": "skadi.png",
         "dname": "Eye of Skadi",
         "qual": "artifact",
         "cost": 5300,
@@ -4897,7 +4897,7 @@ let items = [
     },
     {
         "id": 162,
-        "img": "/apps/dota2/images/items/sange_lg.png?t=1593393829403",
+        "img": "sange.png",
         "dname": "Sange",
         "qual": "artifact",
         "cost": 2050,
@@ -4939,7 +4939,7 @@ let items = [
             "Active: DominateTakes control of one neutral, non-ancient target unit and sets its movement speed to 380 and max health to a minimum of 1000. Also provides the unit with +25 base attack damage, +12 health regen, +4 mana regen and +4 armor. Dominated units with a max health of greater than 1000 retain their original max health.  Dominated unit's bounty is set to 100 gold.Range: 700"
         ],
         "id": 164,
-        "img": "/apps/dota2/images/items/helm_of_the_dominator_lg.png?t=1593393829403",
+        "img": "helm_of_the_dominator.png",
         "dname": "Helm of the Dominator",
         "qual": "artifact",
         "cost": 2400,
@@ -4984,7 +4984,7 @@ let items = [
             "Passive: Vladmir's AuraGrants 18% lifesteal, 18% bonus damage, 2 mana regeneration, and 3 armor to nearby allies."
         ],
         "id": 635,
-        "img": "/apps/dota2/images/items/helm_of_the_overlord_lg.png?t=1593393829403",
+        "img": "helm_of_the_overlord.png",
         "dname": "Helm of the Overlord",
         "qual": "artifact",
         "cost": 6175,
@@ -5028,7 +5028,7 @@ let items = [
             "Passive: Chain LightningGrants a 30% chance on attack to release a bolt of electricity that leaps between 4 targets within a 650 radius, dealing 140 magical damage to each. Lightning proc pierces evasion."
         ],
         "id": 166,
-        "img": "/apps/dota2/images/items/maelstrom_lg.png?t=1593393829403",
+        "img": "maelstrom.png",
         "dname": "Maelstrom",
         "qual": "artifact",
         "cost": 2700,
@@ -5060,7 +5060,7 @@ let items = [
             "Passive: Chain LightningGrants a 30% chance on attack to release a bolt of electricity that leaps between 4 targets within a 650 radius, dealing 160 magical damage to each. Lightning proc pierces evasion."
         ],
         "id": 1466,
-        "img": "/apps/dota2/images/items/gungir_lg.png?t=1593393829403",
+        "img": "gungir.png",
         "dname": "Gleipnir",
         "qual": "artifact",
         "cost": 6150,
@@ -5111,7 +5111,7 @@ let items = [
             "Passive: Soul Stealer Desolator gains +%bonus_damage_per_kill% damage every time an enemy hero dies while affected by Corruption, to a maximum of %max_damage%."
         ],
         "id": 168,
-        "img": "/apps/dota2/images/items/desolator_lg.png?t=1593393829403",
+        "img": "desolator.png",
         "dname": "Desolator",
         "qual": "artifact",
         "cost": 3500,
@@ -5133,7 +5133,7 @@ let items = [
     },
     {
         "id": 170,
-        "img": "/apps/dota2/images/items/yasha_lg.png?t=1593393829403",
+        "img": "yasha.png",
         "dname": "Yasha",
         "qual": "artifact",
         "cost": 2050,
@@ -5178,7 +5178,7 @@ let items = [
             "Passive: LifestealHeals the attacker for a percentage of attack damage dealt."
         ],
         "id": 172,
-        "img": "/apps/dota2/images/items/mask_of_madness_lg.png?t=1593393829403",
+        "img": "mask_of_madness.png",
         "dname": "Mask of Madness",
         "qual": "artifact",
         "cost": 1775,
@@ -5222,7 +5222,7 @@ let items = [
             "Passive: ManabreakEach attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions."
         ],
         "id": 174,
-        "img": "/apps/dota2/images/items/diffusal_blade_lg.png?t=1593393829403",
+        "img": "diffusal_blade.png",
         "dname": "Diffusal Blade",
         "qual": "artifact",
         "cost": 2500,
@@ -5247,7 +5247,7 @@ let items = [
             "Active: Ether BlastConverts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and %ethereal_damage_bonus%%% more vulnerable to magic damage.  Enemy targets are also slowed by %blast_movement_slow%%%, and take %blast_agility_multiplier%x your target's primary attribute + %blast_damage_base% as magical damage.Range: %abilitycastrange%Duration: %duration% seconds"
         ],
         "id": 176,
-        "img": "/apps/dota2/images/items/ethereal_blade_lg.png?t=1593393829403",
+        "img": "ethereal_blade.png",
         "dname": "Ethereal Blade",
         "qual": "epic",
         "cost": 4650,
@@ -5272,7 +5272,7 @@ let items = [
             "Active: Sacrifice Consume %health_sacrifice% health to temporarily gain %mana_gain% mana.  Lasts %duration% seconds.If the mana gained cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool."
         ],
         "id": 178,
-        "img": "/apps/dota2/images/items/soul_ring_lg.png?t=1593393829403",
+        "img": "soul_ring.png",
         "dname": "Soul Ring",
         "qual": "common",
         "cost": 700,
@@ -5299,7 +5299,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 180,
-        "img": "/apps/dota2/images/items/arcane_boots_lg.png?t=1593393829403",
+        "img": "arcane_boots.png",
         "dname": "Arcane Boots",
         "qual": "rare",
         "cost": 1300,
@@ -5336,7 +5336,7 @@ let items = [
             "Passive: Cooldown ReductionReduces the cooldown time of all spells and items."
         ],
         "id": 235,
-        "img": "/apps/dota2/images/items/octarine_core_lg.png?t=1593393829403",
+        "img": "octarine_core.png",
         "dname": "Octarine Core",
         "qual": "rare",
         "cost": 5275,
@@ -5391,7 +5391,7 @@ let items = [
             "Passive: Poison AttackPoisons the target, dealing 2 magical damage per second and slowing movement by -13% if the equipped hero is melee, or by -4% if they are ranged. Lasts for 2 seconds."
         ],
         "id": 181,
-        "img": "/apps/dota2/images/items/orb_of_venom_lg.png?t=1593393829403",
+        "img": "orb_of_venom.png",
         "dname": "Orb of Venom",
         "qual": "component",
         "cost": 275,
@@ -5412,7 +5412,7 @@ let items = [
             "Passive: Lesser Corruption Your attacks reduce the target's armor by -2 for 8 seconds."
         ],
         "id": 240,
-        "img": "/apps/dota2/images/items/blight_stone_lg.png?t=1593393829403",
+        "img": "blight_stone.png",
         "dname": "Blight Stone",
         "qual": "component",
         "cost": 300,
@@ -5433,7 +5433,7 @@ let items = [
             "Passive: CorrosionDealing 3 damage per second, reducing armor by 3, and slowing movement by 13% if the equipped hero is melee, or by 4% if they are ranged.Lasts for 3 seconds."
         ],
         "id": 569,
-        "img": "/apps/dota2/images/items/orb_of_corrosion_lg.png?t=1593393829403",
+        "img": "orb_of_corrosion.png",
         "dname": "Orb of Corrosion",
         "qual": "rare",
         "cost": 925,
@@ -5463,7 +5463,7 @@ let items = [
     },
     {
         "id": 596,
-        "img": "/apps/dota2/images/items/falcon_blade_lg.png?t=1593393829403",
+        "img": "falcon_blade.png",
         "dname": "Falcon Blade",
         "qual": "rare",
         "cost": 1125,
@@ -5489,7 +5489,7 @@ let items = [
             "Passive: Mage SlayerPlaces a debuff when you attack enemies, causing them to do %spell_amp_debuff%%% less spell damage for %duration% seconds."
         ],
         "id": 598,
-        "img": "/apps/dota2/images/items/mage_slayer_lg.png?t=1593393829403",
+        "img": "mage_slayer.png",
         "dname": "Mage Slayer",
         "qual": "rare",
         "cost": 2400,
@@ -5515,7 +5515,7 @@ let items = [
             "Passive: Swiftness AuraGrants 20 movement speed to allies.  Radius: 1200"
         ],
         "id": 185,
-        "img": "/apps/dota2/images/items/ancient_janggo_lg.png?t=1593393829403",
+        "img": "ancient_janggo.png",
         "dname": "Drum of Endurance",
         "qual": "rare",
         "cost": 1700,
@@ -5555,7 +5555,7 @@ let items = [
             "Passive: Swiftness AuraGrants %aura_movement_speed% movement speed to allies.  Radius: %radius%"
         ],
         "id": 931,
-        "img": "/apps/dota2/images/items/boots_of_bearing_lg.png?t=1593393829403",
+        "img": "boots_of_bearing.png",
         "dname": "Boots of Bearing",
         "qual": "rare",
         "cost": 4125,
@@ -5580,7 +5580,7 @@ let items = [
             "Active: Valor If cast on an ally, grants them the 5 armor, and removing it from the caster. If cast on an enemy, reduces 5 armor on both the enemy and the caster. Cannot target spell immune enemies.Range: 1000"
         ],
         "id": 187,
-        "img": "/apps/dota2/images/items/medallion_of_courage_lg.png?t=1593393829403",
+        "img": "medallion_of_courage.png",
         "dname": "Medallion of Courage",
         "qual": "rare",
         "cost": 1025,
@@ -5618,7 +5618,7 @@ let items = [
             "Active: ShineWhen cast on an ally, grants them 6 armor, 50 attack speed, and 10% movement speed. When cast on an enemy, removes 6 armor, 50 attack speed, and 10% movement speed.Removes the armor from the caster when used.  Cannot target spell immune enemies.Range: 1000"
         ],
         "id": 229,
-        "img": "/apps/dota2/images/items/solar_crest_lg.png?t=1593393829403",
+        "img": "solar_crest.png",
         "dname": "Solar Crest",
         "qual": "rare",
         "cost": 2625,
@@ -5669,7 +5669,7 @@ let items = [
             "Use: Disguise Turns the caster and all allied player-controlled units in a 1200 radius invisible, and grants 15% bonus movement speed for 35 seconds. Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility. Disguise grants invisibility that is immune to True Sight."
         ],
         "id": 188,
-        "img": "/apps/dota2/images/items/smoke_of_deceit_lg.png?t=1593393829403",
+        "img": "smoke_of_deceit.png",
         "dname": "Smoke of Deceit",
         "qual": "consumable",
         "cost": 50,
@@ -5690,7 +5690,7 @@ let items = [
             "Use: EnlightenGrants you 700 experience plus 135 per tome consumed by your team after the first two."
         ],
         "id": 257,
-        "img": "/apps/dota2/images/items/tome_of_knowledge_lg.png?t=1593393829403",
+        "img": "tome_of_knowledge.png",
         "dname": "Tome of Knowledge",
         "qual": "consumable",
         "cost": 75,
@@ -5712,7 +5712,7 @@ let items = [
             "Passive: Basilius AuraGrants 1.75 mana regeneration to allies.  Radius: 1200"
         ],
         "id": 190,
-        "img": "/apps/dota2/images/items/veil_of_discord_lg.png?t=1593393829403",
+        "img": "veil_of_discord.png",
         "dname": "Veil of Discord",
         "qual": "rare",
         "cost": 1525,
@@ -5745,7 +5745,7 @@ let items = [
             "Passive: Witch Blade Causes your next attack to apply a poison for %slow_duration% seconds, slowing by %slow%%% and dealing %int_damage_multiplier%x your intelligence as damage every second. Can only trigger once every %passive_cooldown% seconds."
         ],
         "id": 911,
-        "img": "/apps/dota2/images/items/revenants_brooch_lg.png?t=1593393829403",
+        "img": "revenants_brooch.png",
         "dname": "Revenant's Brooch",
         "qual": "rare",
         "cost": 6200,
@@ -5772,7 +5772,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 231,
-        "img": "/apps/dota2/images/items/guardian_greaves_lg.png?t=1593393829403",
+        "img": "guardian_greaves.png",
         "dname": "Guardian Greaves",
         "qual": "rare",
         "cost": 5100,
@@ -5817,7 +5817,7 @@ let items = [
             "Active: CrippleRoots the target for 2 seconds.Range: 1100"
         ],
         "id": 206,
-        "img": "/apps/dota2/images/items/rod_of_atos_lg.png?t=1593393829403",
+        "img": "rod_of_atos.png",
         "dname": "Rod of Atos",
         "qual": "rare",
         "cost": 2750,
@@ -5862,7 +5862,7 @@ let items = [
             "Active: ChopTargets a non-player enemy unit to remove 40% of its current HP.If cast on a tree, instantly destroys it.Unit Range: 350Tree Range: 350"
         ],
         "id": 239,
-        "img": "/apps/dota2/images/items/iron_talon_lg.png?t=1593393829403",
+        "img": "iron_talon.png",
         "dname": "Iron Talon",
         "qual": "common",
         "cost": 301,
@@ -5902,7 +5902,7 @@ let items = [
             "Passive: Damage Block Grants a 60% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged."
         ],
         "id": 208,
-        "img": "/apps/dota2/images/items/abyssal_blade_lg.png?t=1593393829403",
+        "img": "abyssal_blade.png",
         "dname": "Abyssal Blade",
         "qual": "epic",
         "cost": 6250,
@@ -5952,7 +5952,7 @@ let items = [
             "Active: DisarmPrevents a target from attacking for 3 seconds on melee targets, and 5 seconds on ranged targets.Range: 600"
         ],
         "id": 210,
-        "img": "/apps/dota2/images/items/heavens_halberd_lg.png?t=1593393829403",
+        "img": "heavens_halberd.png",
         "dname": "Heaven's Halberd",
         "qual": "artifact",
         "cost": 3550,
@@ -6001,7 +6001,7 @@ let items = [
             "Toggle: Aura Deactivate to stop affecting non-hero units."
         ],
         "id": 212,
-        "img": "/apps/dota2/images/items/ring_of_aquila_lg.png?t=1593393829403",
+        "img": "ring_of_aquila.png",
         "dname": "Ring of Aquila",
         "qual": "rare",
         "cost": 0,
@@ -6024,7 +6024,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 214,
-        "img": "/apps/dota2/images/items/tranquil_boots_lg.png?t=1593393829403",
+        "img": "tranquil_boots.png",
         "dname": "Tranquil Boots",
         "qual": "rare",
         "cost": 925,
@@ -6062,7 +6062,7 @@ let items = [
             "Active: FadeGrants invisibility to you or a target allied hero as long as the target unit remains still.  Has a 1.25 second fade time, and breaks instantly upon moving. There is no cooldown when using this item on yourself.Range: 600"
         ],
         "id": 215,
-        "img": "/apps/dota2/images/items/shadow_amulet_lg.png?t=1593393829403",
+        "img": "shadow_amulet.png",
         "dname": "Shadow Amulet",
         "cost": 1000,
         "notes": "",
@@ -6082,7 +6082,7 @@ let items = [
             "Active: Glimmer After a 0.6 second delay, grants invisibility and 50% magic resistance to you or a target allied unit for 5 seconds.Range: 550Can be cast while channelling."
         ],
         "id": 254,
-        "img": "/apps/dota2/images/items/glimmer_cape_lg.png?t=1593393829403",
+        "img": "glimmer_cape.png",
         "dname": "Glimmer Cape",
         "qual": "rare",
         "cost": 1950,
@@ -6114,7 +6114,7 @@ let items = [
             "Pour this serum into the river to transform the water into liquid chrome for 900 seconds. Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect."
         ],
         "id": 1021,
-        "img": "/apps/dota2/images/items/river_painter_lg.png?t=1593393829403",
+        "img": "river_painter.png",
         "dname": "River Vial: Chrome",
         "qual": "component",
         "cost": 0,
@@ -6135,7 +6135,7 @@ let items = [
             "Pour this serum into the river to dry up the water for 900 seconds. Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect . Charges do not get consumed if the effect is replaced by a stronger vial before expiration. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect."
         ],
         "id": 1022,
-        "img": "/apps/dota2/images/items/river_painter2_lg.png?t=1593393829403",
+        "img": "river_painter2.png",
         "dname": "River Vial: Dry",
         "qual": "component",
         "cost": 0,
@@ -6156,7 +6156,7 @@ let items = [
             "Pour this serum into the river to transform the water into a green slime for 900 seconds. Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect."
         ],
         "id": 1023,
-        "img": "/apps/dota2/images/items/river_painter3_lg.png?t=1593393829403",
+        "img": "river_painter3.png",
         "dname": "River Vial: Slime",
         "qual": "component",
         "cost": 0,
@@ -6177,7 +6177,7 @@ let items = [
             "Pour this serum into the river to make the water oily for 900 seconds. Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect."
         ],
         "id": 1024,
-        "img": "/apps/dota2/images/items/river_painter4_lg.png?t=1593393829403",
+        "img": "river_painter4.png",
         "dname": "River Vial: Oil",
         "qual": "component",
         "cost": 0,
@@ -6198,7 +6198,7 @@ let items = [
             "Pour this serum into the river to make the water electric for 900 seconds. Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect."
         ],
         "id": 1025,
-        "img": "/apps/dota2/images/items/river_painter5_lg.png?t=1593393829403",
+        "img": "river_painter5.png",
         "dname": "River Vial: Electrified",
         "qual": "component",
         "cost": 0,
@@ -6219,7 +6219,7 @@ let items = [
             "Pour this serum into the river to transform the water into a purple bubbling potion for 900 seconds. Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect."
         ],
         "id": 1026,
-        "img": "/apps/dota2/images/items/river_painter6_lg.png?t=1593393829403",
+        "img": "river_painter6.png",
         "dname": "River Vial: Potion",
         "qual": "component",
         "cost": 0,
@@ -6240,7 +6240,7 @@ let items = [
             "Pour this serum into the river to transform the water into blood for 900 seconds. Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect."
         ],
         "id": 1027,
-        "img": "/apps/dota2/images/items/river_painter7_lg.png?t=1593393829403",
+        "img": "river_painter7.png",
         "dname": "River Vial: Blood",
         "qual": "component",
         "cost": 0,
@@ -6258,7 +6258,7 @@ let items = [
     },
     {
         "id": 1028,
-        "img": "/apps/dota2/images/items/mutation_tombstone_lg.png?t=1593393829403",
+        "img": "mutation_tombstone.png",
         "dname": "Tombstone",
         "qual": "consumable",
         "cost": 0,
@@ -6279,7 +6279,7 @@ let items = [
             "Active: Blink Teleport to a target point up to 1200 units away."
         ],
         "id": 1029,
-        "img": "/apps/dota2/images/items/super_blink_lg.png?t=1593393829403",
+        "img": "super_blink.png",
         "dname": "Super Blink Dagger",
         "cost": 0,
         "notes": "",
@@ -6296,7 +6296,7 @@ let items = [
     },
     {
         "id": 1030,
-        "img": "/apps/dota2/images/items/pocket_tower_lg.png?t=1593393829403",
+        "img": "pocket_tower.png",
         "dname": "Pocket Tower",
         "cost": 0,
         "notes": "",
@@ -6313,7 +6313,7 @@ let items = [
     },
     {
         "id": 1032,
-        "img": "/apps/dota2/images/items/pocket_roshan_lg.png?t=1593393829403",
+        "img": "pocket_roshan.png",
         "dname": "Pocket Roshan",
         "qual": "rare",
         "cost": 1000,
@@ -6331,7 +6331,7 @@ let items = [
     },
     {
         "id": 287,
-        "img": "/apps/dota2/images/items/keen_optic_lg.png?t=1593393829403",
+        "img": "keen_optic.png",
         "dname": "Keen Optic",
         "cost": 0,
         "notes": "",
@@ -6365,7 +6365,7 @@ let items = [
             "Passive: Magic Amp Reduces magic resistance of the attacked enemy by %magic_resistance_reduction%%%."
         ],
         "id": 288,
-        "img": "/apps/dota2/images/items/grove_bow_lg.png?t=1593393829403",
+        "img": "grove_bow.png",
         "dname": "Grove Bow",
         "cost": 0,
         "notes": "",
@@ -6386,7 +6386,7 @@ let items = [
             "Passive: Cooldown ReductionReduces the cooldown time of all spells and items."
         ],
         "id": 289,
-        "img": "/apps/dota2/images/items/quickening_charm_lg.png?t=1593393829403",
+        "img": "quickening_charm.png",
         "dname": "Quickening Charm",
         "cost": 0,
         "notes": "",
@@ -6404,7 +6404,7 @@ let items = [
     },
     {
         "id": 290,
-        "img": "/apps/dota2/images/items/philosophers_stone_lg.png?t=1593393829403",
+        "img": "philosophers_stone.png",
         "dname": "Philosopher's Stone",
         "cost": 0,
         "notes": "",
@@ -6444,7 +6444,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 291,
-        "img": "/apps/dota2/images/items/force_boots_lg.png?t=1593393829403",
+        "img": "force_boots.png",
         "dname": "Force Boots",
         "cost": 0,
         "notes": "",
@@ -6478,7 +6478,7 @@ let items = [
             "Passive: Greater Corruption Your attacks reduce the target's armor by -10 for 7 seconds."
         ],
         "id": 292,
-        "img": "/apps/dota2/images/items/desolator_2_lg.png?t=1593393829403",
+        "img": "desolator_2.png",
         "dname": "Stygian Desolator",
         "cost": 0,
         "notes": "Armor reduction works on buildings.",
@@ -6506,7 +6506,7 @@ let items = [
             "Passive: RebirthLethal damage is prevented and instead the wearer is healed to half health and non-ultimate ability cooldowns reset. Gets consumed on trigger."
         ],
         "id": 293,
-        "img": "/apps/dota2/images/items/phoenix_ash_lg.png?t=1593393829403",
+        "img": "phoenix_ash.png",
         "dname": "Phoenix Ash",
         "cost": 0,
         "notes": "",
@@ -6526,7 +6526,7 @@ let items = [
             "Active: Reveal Reveal a target 800 area of the map for 6 seconds."
         ],
         "id": 294,
-        "img": "/apps/dota2/images/items/seer_stone_lg.png?t=1593393829403",
+        "img": "seer_stone.png",
         "dname": "Seer Stone",
         "cost": 0,
         "notes": "",
@@ -6565,7 +6565,7 @@ let items = [
             "Consume Unbelievably Good MangoOverwhelms your hero, causing you to die. However, when you respawn, you will have all talents on both sides skilled."
         ],
         "id": 295,
-        "img": "/apps/dota2/images/items/greater_mango_lg.png?t=1593393829403",
+        "img": "greater_mango.png",
         "dname": "Greater Mango",
         "cost": 0,
         "notes": "",
@@ -6585,7 +6585,7 @@ let items = [
             "Use: Consume Restores 500 health and 250 mana to the target over 6 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost.Range: 250"
         ],
         "id": 302,
-        "img": "/apps/dota2/images/items/elixer_lg.png?t=1593393829403",
+        "img": "elixer.png",
         "dname": "Elixir",
         "cost": 0,
         "notes": "",
@@ -6602,7 +6602,7 @@ let items = [
     },
     {
         "id": 297,
-        "img": "/apps/dota2/images/items/vampire_fangs_lg.png?t=1593393829403",
+        "img": "vampire_fangs.png",
         "dname": "Vampire Fangs",
         "cost": 0,
         "notes": "",
@@ -6639,7 +6639,7 @@ let items = [
             "Passive: Shield Grants +%bonus_aoe_armor% armor and +%bonus_aoe_mres%%% Magic Resistance to all other allies within %bonus_aoe_radius% radius."
         ],
         "id": 829,
-        "img": "/apps/dota2/images/items/force_field_lg.png?t=1593393829403",
+        "img": "force_field.png",
         "dname": "Arcanist's Armor",
         "cost": 0,
         "notes": "",
@@ -6660,7 +6660,7 @@ let items = [
             "Passive: Hair Trigger The next time you get attacked by a hero within %radius% range, explode dealing %damage% damage to all enemies within a %radius% radius and causing them to miss %blind_pct%%% of their attacks for %blind_duration% seconds."
         ],
         "id": 834,
-        "img": "/apps/dota2/images/items/black_powder_bag_lg.png?t=1593393829403",
+        "img": "black_powder_bag.png",
         "dname": "Blast Rig",
         "cost": 0,
         "notes": "",
@@ -6678,7 +6678,7 @@ let items = [
     },
     {
         "id": 849,
-        "img": "/apps/dota2/images/items/mechanical_arm_lg.png?t=1593393829403",
+        "img": "mechanical_arm.png",
         "dname": "Mechanical Arm",
         "cost": 0,
         "notes": "",
@@ -6698,7 +6698,7 @@ let items = [
             "Increases the wearer's armor, while reducing their attack speed."
         ],
         "id": 298,
-        "img": "/apps/dota2/images/items/craggy_coat_lg.png?t=1593393829403",
+        "img": "craggy_coat.png",
         "dname": "Craggy Coat",
         "cost": 0,
         "notes": "",
@@ -6736,7 +6736,7 @@ let items = [
             "Use: Imbue Instantly restores 250 health."
         ],
         "id": 299,
-        "img": "/apps/dota2/images/items/greater_faerie_fire_lg.png?t=1593393829403",
+        "img": "greater_faerie_fire.png",
         "dname": "Greater Faerie Fire",
         "qual": "consumable",
         "cost": 0,
@@ -6764,7 +6764,7 @@ let items = [
             "Increases all outgoing spell damage and debuff duration."
         ],
         "id": 300,
-        "img": "/apps/dota2/images/items/timeless_relic_lg.png?t=1593393829403",
+        "img": "timeless_relic.png",
         "dname": "Timeless Relic",
         "cost": 0,
         "notes": "",
@@ -6785,7 +6785,7 @@ let items = [
             "Passive: Echo Shield Block and reflect most targeted spells back to their caster once every 8 seconds."
         ],
         "id": 301,
-        "img": "/apps/dota2/images/items/mirror_shield_lg.png?t=1593393829403",
+        "img": "mirror_shield.png",
         "dname": "Mirror Shield",
         "cost": 0,
         "notes": "",
@@ -6813,7 +6813,7 @@ let items = [
             "Use: Plant Tree Targets the ground to plant a happy little tree that lasts for 20 seconds.Range: 800"
         ],
         "id": 304,
-        "img": "/apps/dota2/images/items/ironwood_tree_lg.png?t=1593393829403",
+        "img": "ironwood_tree.png",
         "dname": "Ironwood Tree",
         "cost": 151,
         "notes": "",
@@ -6842,7 +6842,7 @@ let items = [
             "Use: Plant a Mango Tree Targets the ground to plant a mango tree that provides unlimited mango power. The tree generates Enchanted Mangoes every 60 seconds, and provides unobstructed vision in the area Range: 200"
         ],
         "id": 328,
-        "img": "/apps/dota2/images/items/mango_tree_lg.png?t=1593393829403",
+        "img": "mango_tree.png",
         "dname": "Mango Tree",
         "qual": "consumable",
         "cost": 0,
@@ -6863,7 +6863,7 @@ let items = [
             "Use: Consume Grants a target allied unit a permanent buff that provides +2.25 Health Regen and +1.25 Mana Regen.Does not stack on the same unit."
         ],
         "id": 305,
-        "img": "/apps/dota2/images/items/royal_jelly_lg.png?t=1593393829403",
+        "img": "royal_jelly.png",
         "dname": "Royal Jelly",
         "qual": "consumable",
         "cost": 0,
@@ -6884,7 +6884,7 @@ let items = [
             "Increases both non-primary attributes."
         ],
         "id": 306,
-        "img": "/apps/dota2/images/items/pupils_gift_lg.png?t=1593393829403",
+        "img": "pupils_gift.png",
         "dname": "Pupil's Gift",
         "cost": 0,
         "notes": "",
@@ -6905,7 +6905,7 @@ let items = [
             "Use: Consume Temporarily grants an allied target the Aghanim's Scepter buff for 3 minutes."
         ],
         "id": 307,
-        "img": "/apps/dota2/images/items/tome_of_aghanim_lg.png?t=1593393829403",
+        "img": "tome_of_aghanim.png",
         "dname": "Tome of Aghanim",
         "cost": 0,
         "notes": "",
@@ -6925,7 +6925,7 @@ let items = [
             "Use: Building Repair Targets a building, restoring 40% of it's health over 30 seconds. Also grants +10 armor during this period. Range: 600"
         ],
         "id": 308,
-        "img": "/apps/dota2/images/items/repair_kit_lg.png?t=1593393829403",
+        "img": "repair_kit.png",
         "dname": "Repair Kit",
         "qual": "consumable",
         "cost": 0,
@@ -6953,7 +6953,7 @@ let items = [
             "Passive: Silence Strike The next attack silences the hit enemy for 1.75 seconds."
         ],
         "id": 309,
-        "img": "/apps/dota2/images/items/mind_breaker_lg.png?t=1593393829403",
+        "img": "mind_breaker.png",
         "dname": "Mind Breaker",
         "cost": 0,
         "notes": "",
@@ -6986,7 +6986,7 @@ let items = [
             "Passive: Charge LossLoses a charge on death. After all charges are lost, the item disappears."
         ],
         "id": 310,
-        "img": "/apps/dota2/images/items/third_eye_lg.png?t=1593393829403",
+        "img": "third_eye.png",
         "dname": "Third Eye",
         "cost": 0,
         "notes": "",
@@ -7018,7 +7018,7 @@ let items = [
             "Passive: Cooldown ReductionReduces the cooldown time of all spells and items."
         ],
         "id": 311,
-        "img": "/apps/dota2/images/items/spell_prism_lg.png?t=1593393829403",
+        "img": "spell_prism.png",
         "dname": "Spell Prism",
         "cost": 0,
         "notes": "",
@@ -7039,7 +7039,7 @@ let items = [
             "Passive: Hex Strike The next attack hexes the hit enemy into a frog for 1.5 seconds."
         ],
         "id": 325,
-        "img": "/apps/dota2/images/items/princes_knife_lg.png?t=1593393829403",
+        "img": "princes_knife.png",
         "dname": "Prince's Knife",
         "cost": 0,
         "notes": "",
@@ -7065,7 +7065,7 @@ let items = [
             "Increases the wearer's max health, while reducing their max mana."
         ],
         "id": 330,
-        "img": "/apps/dota2/images/items/witless_shako_lg.png?t=1593393829403",
+        "img": "witless_shako.png",
         "dname": "Witless Shako",
         "cost": 0,
         "notes": "",
@@ -7096,7 +7096,7 @@ let items = [
             "Passive: Critical Strike Empowers your next attack, causing it to be a critical strike dealing 130% damage."
         ],
         "id": 334,
-        "img": "/apps/dota2/images/items/imp_claw_lg.png?t=1593393829403",
+        "img": "imp_claw.png",
         "dname": "Imp Claw",
         "cost": 0,
         "notes": "",
@@ -7123,7 +7123,7 @@ let items = [
             "Active: Flicker Dispells debuffs and blinks you in a random forward direction for a random distance between 200 and 600. If cast within 3 seconds of receving player damage, it will blink in place."
         ],
         "id": 335,
-        "img": "/apps/dota2/images/items/flicker_lg.png?t=1593393829403",
+        "img": "flicker.png",
         "dname": "Flicker",
         "cost": 0,
         "notes": "",
@@ -7151,7 +7151,7 @@ let items = [
             "Passive: Prescient Aura Lowers Scan cooldown by %scan_cooldown_reduction%%% . Increases attack and cast range of allies in a %aura_range% unit radius."
         ],
         "id": 336,
-        "img": "/apps/dota2/images/items/spy_gadget_lg.png?t=1593393829403",
+        "img": "spy_gadget.png",
         "dname": "Telescope",
         "cost": 0,
         "notes": "",
@@ -7172,7 +7172,7 @@ let items = [
             "Active: Skitter Grants you %bonus_movement_speed_active%%% bonus movement speed and free pathing for %duration% seconds. Walking over trees causes them to be destroyed."
         ],
         "id": 326,
-        "img": "/apps/dota2/images/items/spider_legs_lg.png?t=1593393829403",
+        "img": "spider_legs.png",
         "dname": "Spider Legs",
         "cost": 0,
         "notes": "",
@@ -7193,7 +7193,7 @@ let items = [
             "Passive: Death Delay Survive for an extra 5 seconds after receiving a killing blow."
         ],
         "id": 327,
-        "img": "/apps/dota2/images/items/helm_of_the_undying_lg.png?t=1593393829403",
+        "img": "helm_of_the_undying.png",
         "dname": "Helm of the Undying",
         "cost": 0,
         "notes": "",
@@ -7223,7 +7223,7 @@ let items = [
             " Intelligence: +6% Spell Amp"
         ],
         "id": 331,
-        "img": "/apps/dota2/images/items/vambrace_lg.png?t=1593393829403",
+        "img": "vambrace.png",
         "dname": "Vambrace",
         "qual": "common",
         "cost": 0,
@@ -7256,7 +7256,7 @@ let items = [
             "Active: Blink Strike Targets a unit to teleport to them. Knocks enemies back 250 distance and disables them for 1 second. Range: 1600"
         ],
         "id": 312,
-        "img": "/apps/dota2/images/items/horizon_lg.png?t=1593393829403",
+        "img": "horizon.png",
         "dname": "Horizon",
         "cost": 0,
         "notes": "",
@@ -7276,7 +7276,7 @@ let items = [
             "Use: Consume Grants the target the bonuses of every Power Rune for 50 seconds. Each use consumes a charge."
         ],
         "id": 313,
-        "img": "/apps/dota2/images/items/fusion_rune_lg.png?t=1593393829403",
+        "img": "fusion_rune.png",
         "dname": "Fusion Rune",
         "cost": 0,
         "notes": "",
@@ -7296,7 +7296,7 @@ let items = [
             "Passive: Water Regen Provides you with 10 HP regen and 5 mana regen while in the river."
         ],
         "id": 354,
-        "img": "/apps/dota2/images/items/ocean_heart_lg.png?t=1593393829403",
+        "img": "ocean_heart.png",
         "dname": "Ocean Heart",
         "cost": 0,
         "notes": "",
@@ -7321,7 +7321,7 @@ let items = [
     },
     {
         "id": 355,
-        "img": "/apps/dota2/images/items/broom_handle_lg.png?t=1593393829403",
+        "img": "broom_handle.png",
         "dname": "Broom Handle",
         "cost": 0,
         "notes": "",
@@ -7342,7 +7342,7 @@ let items = [
             "Active: Dig Channel for %abilitychanneltime% second. Can find a Bounty Rune, a Flask, an Enchanted Mango, or an enemy Kobold."
         ],
         "id": 356,
-        "img": "/apps/dota2/images/items/trusty_shovel_lg.png?t=1593393829403",
+        "img": "trusty_shovel.png",
         "dname": "Trusty Shovel",
         "cost": 0,
         "notes": "",
@@ -7360,7 +7360,7 @@ let items = [
     },
     {
         "id": 357,
-        "img": "/apps/dota2/images/items/nether_shawl_lg.png?t=1593393829403",
+        "img": "nether_shawl.png",
         "dname": "Nether Shawl",
         "cost": 0,
         "notes": "",
@@ -7399,7 +7399,7 @@ let items = [
             "Passive: Afterburn Causes attacks to burn the enemy, dealing 18 damage per second for 3 seconds. Affects buildings."
         ],
         "id": 358,
-        "img": "/apps/dota2/images/items/dragon_scale_lg.png?t=1593393829403",
+        "img": "dragon_scale.png",
         "dname": "Dragon Scale",
         "cost": 0,
         "notes": "",
@@ -7433,7 +7433,7 @@ let items = [
             "Active: Life Essence Increases your current and max health by %health_gain% for %health_gain_duration% seconds."
         ],
         "id": 359,
-        "img": "/apps/dota2/images/items/essence_ring_lg.png?t=1593393829403",
+        "img": "essence_ring.png",
         "dname": "Essence Ring",
         "cost": 0,
         "notes": "",
@@ -7454,7 +7454,7 @@ let items = [
             "Active: Ensnare Ensnares the target enemy and yourself for 1.75 seconds. Range: 600"
         ],
         "id": 360,
-        "img": "/apps/dota2/images/items/clumsy_net_lg.png?t=1593393829403",
+        "img": "clumsy_net.png",
         "dname": "Clumsy Net",
         "cost": 0,
         "notes": "",
@@ -7487,7 +7487,7 @@ let items = [
             "Passive: Certain Strike Empowers your next attack with %bonus_damage% bonus magical damage and True Strike. Ranged Attackers have +%bonus_attack_range% bonus range for the attack."
         ],
         "id": 361,
-        "img": "/apps/dota2/images/items/enchanted_quiver_lg.png?t=1593393829403",
+        "img": "enchanted_quiver.png",
         "dname": "Enchanted Quiver",
         "cost": 0,
         "notes": "",
@@ -7508,7 +7508,7 @@ let items = [
             "Active: Solitary Disguise Casts Smoke of Deceit on yourself only."
         ],
         "id": 362,
-        "img": "/apps/dota2/images/items/ninja_gear_lg.png?t=1593393829403",
+        "img": "ninja_gear.png",
         "dname": "Ninja Gear",
         "cost": 0,
         "notes": "",
@@ -7530,7 +7530,7 @@ let items = [
             "Passive: Illusion MasteryIncreases outgoing damage of all units and illusions controlled by the hero by 6%."
         ],
         "id": 363,
-        "img": "/apps/dota2/images/items/illusionsts_cape_lg.png?t=1593393829403",
+        "img": "illusionsts_cape.png",
         "dname": "Illusionist's Cape",
         "cost": 0,
         "notes": "",
@@ -7578,7 +7578,7 @@ let items = [
             "Active: Havoc Knocks back enemies in 400 range around you, slowing them by 50% for 3 seconds and dealing 175 + 1x your str as magical damage."
         ],
         "id": 364,
-        "img": "/apps/dota2/images/items/havoc_hammer_lg.png?t=1593393829403",
+        "img": "havoc_hammer.png",
         "dname": "Havoc Hammer",
         "cost": 0,
         "notes": "",
@@ -7611,7 +7611,7 @@ let items = [
             "Passive: Rejuvenate  When the wearer's health falls below 20%, they will receive a hard dispel and be healed for 300 health."
         ],
         "id": 365,
-        "img": "/apps/dota2/images/items/panic_button_lg.png?t=1593393829403",
+        "img": "panic_button.png",
         "dname": "Magic Lamp",
         "cost": 0,
         "notes": "",
@@ -7635,7 +7635,7 @@ let items = [
     },
     {
         "id": 366,
-        "img": "/apps/dota2/images/items/apex_lg.png?t=1593393829403",
+        "img": "apex.png",
         "dname": "Apex",
         "cost": 0,
         "notes": "",
@@ -7656,7 +7656,7 @@ let items = [
             "Passive: Knockback Knocks back enemies 50 distance and deals 50 pure damage with every attack."
         ],
         "id": 367,
-        "img": "/apps/dota2/images/items/ballista_lg.png?t=1593393829403",
+        "img": "ballista.png",
         "dname": "Ballista",
         "cost": 0,
         "notes": "",
@@ -7685,7 +7685,7 @@ let items = [
             "Movement speed bonuses from multiple pairs of boots do not stack."
         ],
         "id": 368,
-        "img": "/apps/dota2/images/items/woodland_striders_lg.png?t=1593393829403",
+        "img": "woodland_striders.png",
         "dname": "Woodland Striders",
         "cost": 0,
         "notes": "",
@@ -7718,7 +7718,7 @@ let items = [
             "Active: Greater Demonic Summoning Summon 2 sets of Level 3 Necronomicon Units that last 75 seconds. Units have 100% more health and 75% more damage."
         ],
         "id": 370,
-        "img": "/apps/dota2/images/items/demonicon_lg.png?t=1593393829403",
+        "img": "demonicon.png",
         "dname": "Book of the Dead",
         "cost": 0,
         "notes": "",
@@ -7752,7 +7752,7 @@ let items = [
             "Active: Dig Channel for %abilitychanneltime% second. Always finds a Bounty Rune!"
         ],
         "id": 372,
-        "img": "/apps/dota2/images/items/pirate_hat_lg.png?t=1593393829403",
+        "img": "pirate_hat.png",
         "dname": "Pirate Hat",
         "cost": 0,
         "notes": "",
@@ -7773,7 +7773,7 @@ let items = [
             "Active Teleport instantly anywhere on the map."
         ],
         "id": 373,
-        "img": "/apps/dota2/images/items/dimensional_doorway_lg.png?t=1593393829403",
+        "img": "dimensional_doorway.png",
         "dname": "Dimensional Doorway",
         "cost": 0,
         "notes": "",
@@ -7793,7 +7793,7 @@ let items = [
             "Active: Reset Cooldowns Reset the cooldown on all items (except Refresher Orb)."
         ],
         "id": 374,
-        "img": "/apps/dota2/images/items/ex_machina_lg.png?t=1593393829403",
+        "img": "ex_machina.png",
         "dname": "Ex Machina",
         "cost": 0,
         "notes": "",
@@ -7818,7 +7818,7 @@ let items = [
     },
     {
         "id": 375,
-        "img": "/apps/dota2/images/items/faded_broach_lg.png?t=1593393829403",
+        "img": "faded_broach.png",
         "dname": "Faded Broach",
         "cost": 0,
         "notes": "",
@@ -7851,7 +7851,7 @@ let items = [
             "Passive: Greater Healing Amplifies the wearer's Regeneration, Healing, Lifesteal and Spell Lifesteal by %bonus_amp%%%."
         ],
         "id": 376,
-        "img": "/apps/dota2/images/items/paladin_sword_lg.png?t=1593393829403",
+        "img": "paladin_sword.png",
         "dname": "Paladin Sword",
         "cost": 0,
         "notes": "",
@@ -7872,7 +7872,7 @@ let items = [
             "Active: Lesser Avatar Grants Spell Immunity for 2 seconds."
         ],
         "id": 377,
-        "img": "/apps/dota2/images/items/minotaur_horn_lg.png?t=1593393829403",
+        "img": "minotaur_horn.png",
         "dname": "Minotaur Horn",
         "cost": 0,
         "notes": "",
@@ -7899,7 +7899,7 @@ let items = [
             "Passive: Impeding Corruption Attacks reduce the target's armor and movement speed. Slow amount varies based on whether the wearer is melee or ranged."
         ],
         "id": 378,
-        "img": "/apps/dota2/images/items/orb_of_destruction_lg.png?t=1593393829403",
+        "img": "orb_of_destruction.png",
         "dname": "Orb of Destruction",
         "cost": 0,
         "notes": "",
@@ -7937,7 +7937,7 @@ let items = [
     },
     {
         "id": 379,
-        "img": "/apps/dota2/images/items/the_leveller_lg.png?t=1593393829403",
+        "img": "the_leveller.png",
         "dname": "The Leveller",
         "cost": 0,
         "notes": "",
@@ -7958,7 +7958,7 @@ let items = [
             "Active: Replenish Mana Restores %mana_restore% mana to all nearby allies.  Radius: %radius%"
         ],
         "id": 349,
-        "img": "/apps/dota2/images/items/arcane_ring_lg.png?t=1593393829403",
+        "img": "arcane_ring.png",
         "dname": "Arcane Ring",
         "cost": 0,
         "notes": "",
@@ -7976,7 +7976,7 @@ let items = [
     },
     {
         "id": 381,
-        "img": "/apps/dota2/images/items/titan_sliver_lg.png?t=1593393829403",
+        "img": "titan_sliver.png",
         "dname": "Titan Sliver",
         "cost": 0,
         "notes": "",
@@ -8015,7 +8015,7 @@ let items = [
             "PassiveEverytime you are attacked, you return 30 damage to heroes and 20 damage to creeps."
         ],
         "id": 565,
-        "img": "/apps/dota2/images/items/chipped_vest_lg.png?t=1593393829403",
+        "img": "chipped_vest.png",
         "dname": "Chipped Vest",
         "cost": 0,
         "notes": "",
@@ -8043,7 +8043,7 @@ let items = [
             "ActiveDeals 125 damage to up to 2 random enemy units within 700."
         ],
         "id": 566,
-        "img": "/apps/dota2/images/items/wizard_glass_lg.png?t=1593393829403",
+        "img": "wizard_glass.png",
         "dname": "Wizard Glass",
         "cost": 0,
         "notes": "",
@@ -8075,7 +8075,7 @@ let items = [
             "Reduces TP cooldown by 20 seconds and causes TP scrolls to not be consumed."
         ],
         "id": 570,
-        "img": "/apps/dota2/images/items/gloves_of_travel_lg.png?t=1593393829403",
+        "img": "gloves_of_travel.png",
         "dname": "Gloves of Travel",
         "cost": 0,
         "notes": "",
@@ -8098,7 +8098,7 @@ let items = [
     },
     {
         "id": 573,
-        "img": "/apps/dota2/images/items/elven_tunic_lg.png?t=1593393829403",
+        "img": "elven_tunic.png",
         "dname": "Elven Tunic",
         "cost": 0,
         "notes": "",
@@ -8138,7 +8138,7 @@ let items = [
             "Passive: ImmolateBurns enemy units for 45 damage per second. Illusions deal 30 damage per second.Radius: 375"
         ],
         "id": 574,
-        "img": "/apps/dota2/images/items/cloak_of_flames_lg.png?t=1593393829403",
+        "img": "cloak_of_flames.png",
         "dname": "Cloak of Flames",
         "cost": 0,
         "notes": "",
@@ -8169,7 +8169,7 @@ let items = [
     },
     {
         "id": 575,
-        "img": "/apps/dota2/images/items/venom_gland_lg.png?t=1593393829403",
+        "img": "venom_gland.png",
         "dname": "Venom Gland",
         "cost": 0,
         "notes": "",
@@ -8210,7 +8210,7 @@ let items = [
             "Active: CloakCauses you to become invisible for 6 seconds."
         ],
         "id": 571,
-        "img": "/apps/dota2/images/items/trickster_cloak_lg.png?t=1593393829403",
+        "img": "trickster_cloak.png",
         "dname": "Trickster Cloak",
         "cost": 0,
         "notes": "",
@@ -8244,7 +8244,7 @@ let items = [
             "Upon taking hero damage, you gains 18 damage, 5 armor, 15 for 7 seconds."
         ],
         "id": 576,
-        "img": "/apps/dota2/images/items/gladiator_helm_lg.png?t=1593393829403",
+        "img": "gladiator_helm.png",
         "dname": "Helm of the Gladiator",
         "cost": 0,
         "notes": "",
@@ -8264,7 +8264,7 @@ let items = [
             "Passive: LifestealHeals the attacker for 7 HP on each attack."
         ],
         "id": 577,
-        "img": "/apps/dota2/images/items/possessed_mask_lg.png?t=1593393829403",
+        "img": "possessed_mask.png",
         "dname": "Possessed Mask",
         "cost": 0,
         "notes": "",
@@ -8289,7 +8289,7 @@ let items = [
     },
     {
         "id": 578,
-        "img": "/apps/dota2/images/items/ancient_perseverance_lg.png?t=1593393829403",
+        "img": "ancient_perseverance.png",
         "dname": "Ancient Perseverance",
         "cost": 0,
         "notes": "",
@@ -8327,7 +8327,7 @@ let items = [
             "Passive: Cleave Melee heroes deal 20% of attack damage as physical damage in a cone up to 650 around the target."
         ],
         "id": 637,
-        "img": "/apps/dota2/images/items/star_mace_lg.png?t=1593393829403",
+        "img": "star_mace.png",
         "dname": "Star Mace",
         "cost": 0,
         "notes": "",
@@ -8360,7 +8360,7 @@ let items = [
             "Passive: MaimEach attack has a 25% chance to reduce enemy hero movement speed by 20% and attack speed by 60 for 3 seconds."
         ],
         "id": 638,
-        "img": "/apps/dota2/images/items/penta_edged_sword_lg.png?t=1593393829403",
+        "img": "penta_edged_sword.png",
         "dname": "Penta-Edged Sword",
         "cost": 0,
         "notes": "",
@@ -8394,7 +8394,7 @@ let items = [
             "Active: RejuvenateTarget an allied hero and restore 480 health over 12 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost."
         ],
         "id": 582,
-        "img": "/apps/dota2/images/items/oakheart_lg.png?t=1593393829403",
+        "img": "oakheart.png",
         "dname": "Oakheart",
         "cost": 0,
         "notes": "",
@@ -8421,7 +8421,7 @@ let items = [
             "Active: WarhammerDeals 75 damage and reduces the target's armor by 3 for 6 seconds."
         ],
         "id": 674,
-        "img": "/apps/dota2/images/items/warhammer_lg.png?t=1593393829403",
+        "img": "warhammer.png",
         "dname": "Warhammer",
         "cost": 0,
         "notes": "",
@@ -8448,7 +8448,7 @@ let items = [
             "Active: WhipGrants 18% movement speed when cast on allies, and slows by 18% when cast on enemies. Lasts 4 seconds."
         ],
         "id": 680,
-        "img": "/apps/dota2/images/items/bullwhip_lg.png?t=1593393829403",
+        "img": "bullwhip.png",
         "dname": "Bullwhip",
         "cost": 0,
         "notes": "",
@@ -8482,7 +8482,7 @@ let items = [
             "Active: Psychic PushPushes the target enemy unit away from you %push_length% distance."
         ],
         "id": 675,
-        "img": "/apps/dota2/images/items/psychic_headband_lg.png?t=1593393829403",
+        "img": "psychic_headband.png",
         "dname": "Psychic Headband",
         "cost": 0,
         "notes": "",
@@ -8503,7 +8503,7 @@ let items = [
             "Passive: Ceremonial AuraLowers enemy Status Resistance by %status_resistance%%% and Magic Resistance by %magic_resistance%%%.Radius: %aura_radius%"
         ],
         "id": 676,
-        "img": "/apps/dota2/images/items/ceremonial_robe_lg.png?t=1593393829403",
+        "img": "ceremonial_robe.png",
         "dname": "Ceremonial Robe",
         "cost": 0,
         "notes": "",
@@ -8524,7 +8524,7 @@ let items = [
             "Passive: QuicksilverGrants you a bonus %bonus_movement%%% movement speed and %bonus_attack% attack speed anytime one of your abilities are on cooldown."
         ],
         "id": 686,
-        "img": "/apps/dota2/images/items/quicksilver_amulet_lg.png?t=1593393829403",
+        "img": "quicksilver_amulet.png",
         "dname": "Quicksilver Amulet",
         "cost": 0,
         "notes": "",
@@ -8545,7 +8545,7 @@ let items = [
             "Active: ShadowsTarget an enemy, ally or self. Causes the target to become untargetable but also silenced, muted and disarmed for 3 seconds. Applies a Basic Dispel."
         ],
         "id": 677,
-        "img": "/apps/dota2/images/items/book_of_shadows_lg.png?t=1593393829403",
+        "img": "book_of_shadows.png",
         "dname": "Book of Shadows",
         "cost": 0,
         "notes": "",
@@ -8566,7 +8566,7 @@ let items = [
             "Passive: Giant's FootCan path over any terrain and deals 100% of your strength per second to units you are standing ontop of."
         ],
         "id": 678,
-        "img": "/apps/dota2/images/items/giants_ring_lg.png?t=1593393829403",
+        "img": "giants_ring.png",
         "dname": "Giant's Ring",
         "cost": 0,
         "notes": "",
@@ -8605,7 +8605,7 @@ let items = [
             "Passive: Vengeance's ShadowUpon death, you spawn a strong-illusion that deals 100% damage and takes 150% damage. Can cast all basic spells. Illusion casts 30 seconds."
         ],
         "id": 679,
-        "img": "/apps/dota2/images/items/vengeances_shadow_lg.png?t=1593393829403",
+        "img": "vengeances_shadow.png",
         "dname": "Shadow of Vengeance",
         "cost": 0,
         "notes": "",
@@ -8638,7 +8638,7 @@ let items = [
             "Passive: Bottled Lightning Zaps an enemy within 700 range, dealing 200 damage and a 40% slow for 0.3 seconds. Strikes every 3 seconds."
         ],
         "id": 585,
-        "img": "/apps/dota2/images/items/stormcrafter_lg.png?t=1593393829403",
+        "img": "stormcrafter.png",
         "dname": "Stormcrafter",
         "cost": 0,
         "notes": "",
@@ -8666,7 +8666,7 @@ let items = [
             "Restores 500 health, and 200 mana over 4 seconds. Can capture runes."
         ],
         "id": 588,
-        "img": "/apps/dota2/images/items/overflowing_elixir_lg.png?t=1593393829403",
+        "img": "overflowing_elixir.png",
         "dname": "Overflowing Elixir",
         "cost": 0,
         "notes": "",
@@ -8683,7 +8683,7 @@ let items = [
     },
     {
         "id": 589,
-        "img": "/apps/dota2/images/items/mysterious_hat_lg.png?t=1593393829403",
+        "img": "mysterious_hat.png",
         "dname": "Fairy's Trinket",
         "cost": 0,
         "notes": "",
@@ -8720,7 +8720,7 @@ let items = [
     },
     {
         "id": 824,
-        "img": "/apps/dota2/images/items/assassins_dagger_lg.png?t=1593393829403",
+        "img": "assassins_dagger.png",
         "dname": "Assassin's Dagger",
         "cost": 0,
         "notes": "",
@@ -8740,7 +8740,7 @@ let items = [
             "Passive: EnduranceWhenever a debuff would be applied to the owner, grant %status_resistance%%% Status resistance for %duration% seconds."
         ],
         "id": 825,
-        "img": "/apps/dota2/images/items/ascetic_cap_lg.png?t=1593393829403",
+        "img": "ascetic_cap.png",
         "dname": "Ascetic's Cap",
         "cost": 0,
         "notes": "",
@@ -8758,7 +8758,7 @@ let items = [
     },
     {
         "id": 826,
-        "img": "/apps/dota2/images/items/sample_picker_lg.png?t=1593393829403",
+        "img": "sample_picker.png",
         "dname": "Assassin's Contract",
         "cost": 0,
         "notes": "",
@@ -8775,7 +8775,7 @@ let items = [
     },
     {
         "id": 827,
-        "img": "/apps/dota2/images/items/icarus_wings_lg.png?t=1593393829403",
+        "img": "icarus_wings.png",
         "dname": "Icarus Wings",
         "cost": 0,
         "notes": "",
@@ -8795,7 +8795,7 @@ let items = [
             "Passive: Dark MercyYour attacks deal %bonus_damage% more damage to enemies for each %missing_hp%%% HP they are missing."
         ],
         "id": 828,
-        "img": "/apps/dota2/images/items/misericorde_lg.png?t=1593393829403",
+        "img": "misericorde.png",
         "dname": "Brigand's Blade",
         "cost": 0,
         "notes": "",
@@ -8813,7 +8813,7 @@ let items = [
     },
     {
         "id": 836,
-        "img": "/apps/dota2/images/items/light_robes_lg.png?t=1593393829403",
+        "img": "light_robes.png",
         "dname": "Light Robes",
         "cost": 0,
         "notes": "",
@@ -8834,7 +8834,7 @@ let items = [
             "Passive: SubjugateYour attacks deal bonus damage equal to 4% of your target Max Mana."
         ],
         "id": 837,
-        "img": "/apps/dota2/images/items/heavy_blade_lg.png?t=1593393829403",
+        "img": "heavy_blade.png",
         "dname": "Witchbane",
         "cost": 0,
         "notes": "",
@@ -8855,7 +8855,7 @@ let items = [
             "Active: Pig, Out!Turns your hero into a critter for 4 seconds and gives them +10% Movement Speed."
         ],
         "id": 838,
-        "img": "/apps/dota2/images/items/unstable_wand_lg.png?t=1593393829403",
+        "img": "unstable_wand.png",
         "dname": "Pig Pole",
         "cost": 0,
         "notes": "",
@@ -8880,7 +8880,7 @@ let items = [
     },
     {
         "id": 839,
-        "img": "/apps/dota2/images/items/fortitude_ring_lg.png?t=1593393829403",
+        "img": "fortitude_ring.png",
         "dname": "Ring of Fortitude",
         "cost": 0,
         "notes": "",
@@ -8900,7 +8900,7 @@ let items = [
             "Active: VaultPropels your hero forward %leap_distance% units. Tumbler's Toy gets disabled for 3 seconds if its owner receives damage from a player source."
         ],
         "id": 840,
-        "img": "/apps/dota2/images/items/pogo_stick_lg.png?t=1593393829403",
+        "img": "pogo_stick.png",
         "dname": "Tumbler's Toy",
         "cost": 0,
         "notes": "",
@@ -8921,7 +8921,7 @@ let items = [
             "Active: Shadow BrandThrows a Mark towards an enemy within %abilitycastrange% range applying a debuff that deals %dps% damage every second and provides vision of the unit for %duration% seconds."
         ],
         "id": 835,
-        "img": "/apps/dota2/images/items/paintball_lg.png?t=1593393829403",
+        "img": "paintball.png",
         "dname": "Fae Grenade",
         "cost": 0,
         "notes": "",
@@ -9031,12 +9031,12 @@ nextButton.addEventListener('click', () => {
             componentsCount++;
         }
 
-        currentItemImage.src="http://cdn.dota2.com" + currentItem.img;
+        currentItemImage.src="./img/items/" + currentItem.img;
         currentItemName.innerText = currentItem.dname;
         currentItemComponentsCount.innerText = 'Кол-во компонентов: ' + componentsCount;
 
         suggestedItems.forEach(item => {
-            suggestedItemsContainer.innerHTML += itemElementTemplate.replace('%IMAGE%', "http://cdn.dota2.com" + item.img).replace('%NAME%', item.dname);
+            suggestedItemsContainer.innerHTML += itemElementTemplate.replace('%IMAGE%', "./img/items/" + item.img).replace('%NAME%', item.dname);
         });
 
         toggles = new Actions({
