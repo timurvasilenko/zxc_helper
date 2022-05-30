@@ -22,6 +22,9 @@ module.exports = {
         }
       }
     },
+    backgroundImage: {
+      'loader-ring': "url('/img/loading.gif')",
+    }
   },
   plugins: [],
 }

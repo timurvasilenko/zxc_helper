@@ -871,7 +871,7 @@ const heroes = [{
 // ]
 
 const heroesContainer = document.querySelector('#heroes-container');
-const heroElementTemplate = heroesContainer.querySelector('template').innerHTML
+const heroElementTemplate = heroesContainer.querySelector('template').innerHTML;
 
 document.querySelector('#random-button').addEventListener('click', (e)=>{
     let filteredHeroes = heroes.filter(hero => !disabledHeroes.includes(hero.name_english_loc));
@@ -990,3 +990,4 @@ searchInput.addEventListener('input', (e) => {
         });
     }
 });
+

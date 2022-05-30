@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZXC Helper - Random Hero</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js/actions.js" defer></script>
+    <script src="./js/quiz.js" defer></script>
+</head>
+
+<body class="bg-gray-900">
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="./">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white p-1 bg-indigo-500 rounded-full"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span class="ml-3 text-xl">ZXC Helper</span>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white" href="./randomHero.html">Слуйчайный герой</a>
+                <a class="mr-5 hover:text-white">Викторина</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-7 justify-center items-center">
+                <h1 class="text-xl font-normal title-font text-white text-indigo-500 points" id="points-record">Рекорд:
+                    0
+                </h1>
+                <h1 class="text-xl font-normal title-font text-white points-current" id="points-current">
+                    Очки: 0</h1>
+            </div>
+            <div class="flex flex-col text-center w-full mb-20 justify-center items-center" id="current-item">
+                <img alt="team"
+                    class="flex-shrink-0 rounded-lg h-24 object-cover object-center mb-4 drop-shadow-md bg-loader-ring bg-no-repeat bg-center bg-contain"
+                    onerror="this.src='./img/image_error.svg'">
+                <h1 class="text-2xl font-medium title-font text-white"></h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base mb-4">Кол-во компонентов: 1</p>
+                <button id="start-button"
+                    class="text-white border border-gray-800 py-2 px-6 focus:outline-none hover:border-indigo-500/100 rounded text-lg lg:w-1/4 lg:mb-0 w-full mb-3">Проверить</button>
+            </div>
+            <div class="flex flex-wrap -m-4 justify-center items-center" id="suggested-items">
+            </div>
+        </div>
+    </section>
+
+    <template class=""></template>
+
+    <template id="suggestedItem">
+        <!-- Element -->
+        <div
+            class="p-4 suggested-item border rounded-lg border-transparent hover:bg-gray-800 mb-6 mx-5 cursor-pointer transition-opacity duration-300">
+            <div class="h-full flex flex-col items-center text-center">
+                <img alt="team"
+                    class="flex-shrink-0 rounded-lg object-center object-contain mb-4 drop-shadow-md bg-loader-ring bg-no-repeat bg-center bg-contain h-[64px] w-[85px] select-none"
+                    src="%IMAGE%" onerror="this.src='./img/image_error.svg'">
+                <div class="w-full whitespace-normal">
+                    <h2 class="title-font font-medium text-md text-base whitespace-normal">%NAME%</h2>
+                </div>
+            </div>
+        </div>
+    </template>
+</body>
+
+</html>
