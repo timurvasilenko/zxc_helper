@@ -8993,6 +8993,7 @@ pointsCurrent.innerText = 'Очки: ' + points;
 
 nextButton.addEventListener('click', () => {
     if (isResultChecked == true){
+        currentItemImage.src="";
         isResultChecked = false;
         suggestedItemsContainer.innerHTML = '';
         suggestedItems = [];
