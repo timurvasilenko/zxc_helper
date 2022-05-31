@@ -3857,87 +3857,6 @@ let items = [
     },
     {
         "hint": [
-            "Combines Sange, Yasha and Kaya together."
-        ],
-        "id": 369,
-        "img": "trident.png",
-        "dname": "Trident",
-        "cost": 0,
-        "notes": "",
-        "attrib": [
-            {
-                "key": "bonus_strength",
-                "header": "+",
-                "value": "30",
-                "footer": "Strength"
-            },
-            {
-                "key": "bonus_agility",
-                "header": "+",
-                "value": "30",
-                "footer": "Agility"
-            },
-            {
-                "key": "bonus_intellect",
-                "header": "+",
-                "value": "30",
-                "footer": "Intelligence"
-            },
-            {
-                "key": "status_resistance",
-                "header": "+Status Resistance",
-                "value": "30%"
-            },
-            {
-                "key": "bonus_attack_speed",
-                "header": "+",
-                "value": "30",
-                "footer": "Attack Speed"
-            },
-            {
-                "key": "movement_speed_percent_bonus",
-                "header": "+",
-                "value": "10%",
-                "footer": "Movement Speed"
-            },
-            {
-                "key": "hp_regen_amp",
-                "header": "+Health Regen and Lifesteal Amp",
-                "value": "30%"
-            },
-            {
-                "key": "mana_regen_multiplier",
-                "header": "+Mana Regen Amplification",
-                "value": "30%"
-            },
-            {
-                "key": "spell_amp",
-                "header": "+Spell Amplification",
-                "value": "30%"
-            },
-            {
-                "key": "magic_damage_attack",
-                "header": "+Magic Damage Attack",
-                "value": "30"
-            }
-        ],
-        "mc": false,
-        "cd": false,
-        "lore": "",
-        "components": [
-            "kaya",
-            "sange",
-            "yasha",
-            "recipe"
-        ],
-        "created": true,
-        "charges": false,
-        "name": "trident",
-        "recipe": 0,
-        "isComponent": false
-    },
-    {
-        "hint": [
             "Use: Reset CooldownsResets the cooldowns of all your items and abilities."
         ],
         "id": 260,
@@ -5859,44 +5778,6 @@ let items = [
     },
     {
         "hint": [
-            "Active: ChopTargets a non-player enemy unit to remove 40% of its current HP.If cast on a tree, instantly destroys it.Unit Range: 350Tree Range: 350"
-        ],
-        "id": 239,
-        "img": "iron_talon.png",
-        "dname": "Iron Talon",
-        "qual": "common",
-        "cost": 301,
-        "notes": "Has a 4 second cooldown on Trees.",
-        "attrib": [
-            {
-                "key": "bonus_attack_speed",
-                "header": "+",
-                "value": "15",
-                "footer": "Attack Speed"
-            },
-            {
-                "key": "bonus_armor",
-                "header": "+",
-                "value": "2",
-                "footer": "Armor"
-            }
-        ],
-        "mc": false,
-        "cd": 25,
-        "lore": "A simple but effective weapon devised to quell a great Hellbear uprising.",
-        "components": [
-            "quelling_blade",
-            "ring_of_protection",
-            "recipe"
-        ],
-        "created": true,
-        "charges": false,
-        "name": "iron_talon",
-        "recipe": 0,
-        "isComponent": false
-    },
-    {
-        "hint": [
             "Active: Overwhelm Stuns a target enemy unit for 2 seconds. Pierces Spell Immunity.Range: 150",
             "Passive: Bash Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 120 bonus physical damage.  Bash chance for ranged heroes is 10%.",
             "Passive: Damage Block Grants a 60% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged."
@@ -6805,35 +6686,6 @@ let items = [
         "charges": false,
         "tier": 5,
         "name": "mirror_shield",
-        "recipe": 0,
-        "isComponent": false
-    },
-    {
-        "hint": [
-            "Use: Plant Tree Targets the ground to plant a happy little tree that lasts for 20 seconds.Range: 800"
-        ],
-        "id": 304,
-        "img": "ironwood_tree.png",
-        "dname": "Ironwood Tree",
-        "cost": 151,
-        "notes": "",
-        "attrib": [
-            {
-                "key": "bonus_all_stats",
-                "header": "+",
-                "value": "6",
-                "footer": "All Attributes"
-            }
-        ],
-        "mc": false,
-        "cd": 15,
-        "lore": "Precious. And hearty as a weed.",
-        "components": [
-            "recipe"
-        ],
-        "created": false,
-        "charges": false,
-        "name": "ironwood_tree",
         "recipe": 0,
         "isComponent": false
     },
@@ -9007,12 +8859,14 @@ nextButton.addEventListener('click', () => {
         suggestedItemsCount = randomItem.components.length + Math.ceil(randomItem.components.length / 2 + 1);
         currentItem.components.forEach(component => {
             let validItem = structuredClone(items.find(item => item.name == component));
+            filteredItems = filteredItems.filter(item => item.name != component);
             validItem.valid = true;
             suggestedItems.push(validItem);
             suggestedItemsCount--;
         });
         if (currentItem.recipe == 1){
             let validItem = structuredClone(items[0]);
+            filteredItems = filteredItems.filter(item => item.name != items[0].name);
             validItem.valid = true;
             suggestedItems.push(validItem);
             suggestedItemsCount--;
