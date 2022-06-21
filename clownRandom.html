@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZXC Helper - Random Hero</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js/actions.js" defer></script>
+    <script src="./js/data/heroes.js" defer></script>
+    <script src="./js/data/items.js" defer></script>
+    <script src="./js/clownRandom.js" defer></script>
+</head>
+
+<body class="bg-gray-900">
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="./">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white p-1 bg-indigo-500 rounded-full"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span class="ml-3 text-xl">ZXC Helper</span>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white" href="./randomHero.html">Слуйчайный герой</a>
+                <a class="mr-5 hover:text-white" href="./quiz.html">Викторина</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+        <div class="container px-5 py-15 mx-auto">
+            <div class="flex flex-col text-center w-full mb-6">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Лютый рандом</h1>
+
+                <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical.</p> -->
+                <div id="current-build-container"></div>
+                <!-- <div class="flex mx-auto rounded overflow-hidden mt-6">
+                    <button class="py-1 px-4 bg-green-400 text-gray-700 focus:outline-none font-medium">ИЗИ</button>
+                    <button class="py-1 px-4 bg-yellow-400 text-gray-700 focus:outline-none font-bold">✕</button>
+                    <button class="py-1 px-4 bg-rose-400 text-gray-700 focus:outline-none font-medium">СЛИЛ</button>
+                </div> -->
+
+                <div class="flex mx-auto rounded overflow-hidden mt-6">
+                    <button id="btn-refresh"
+                        class="p-2 text-white focus:outline-none rounded-full bg-gray-800 hover:bg-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="flex flex-wrap -m-4 mb-5" id="cards-container">
+                <!-- Element -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Random cart container template -->
+    <template id="template-container">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+                <img class="object-cover object-center rounded justify-self-end mx-auto mb-3 drop-shadow-md select-none"
+                    alt=" " src="./img/heroes/full/%HERO_IMAGE%">
+                <h1 class="text-[2rem] text-white pb-4 mb-2 border-b border-gray-800 leading-none text-center">
+                    %HERO_NAME%
+                </h1>
+                <h2 class="text-sm tracking-widest text-gray-400 title-font mb-2 font-medium">Линия - <span
+                        class="font-bold">%LINE%</span></h2>
+                <h2 class="text-sm tracking-widest text-gray-400 title-font mb-2 font-medium">Предметы:</h2>
+                <!-- Items -->
+                %ITEMS%
+                <!-- <button data-build-id="%BUILD_ID%"
+                    class="btn-choose flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Выбрать
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button> -->
+                <!-- <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p> -->
+            </div>
+        </div>
+    </template>
+
+    <!-- Random card template -->
+    <template id="template-item">
+        <!-- Item -->
+        <p class="flex items-center bg-transparent mb-2">
+            <span class="w-12 h-10 mr-2 inline-flex items-center justify-center text-gray-500 flex-shrink-0 rounded-lg">
+                <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> -->
+                <img class="w-full object-cover object-center rounded-lg justify-self-end mx-auto drop-shadow-md select-none border-2 border-gray-800"
+                    alt=" " src="./img/items/%ITEM_IMAGE%">
+            </span>%ITEM_NAME%
+        </p>
+    </template>
+</body>
+
+</html>
